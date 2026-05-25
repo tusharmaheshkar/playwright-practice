@@ -1,0 +1,57 @@
+- generic [active] [ref=e1]:
+  - link [ref=e3] [cursor=pointer]:
+    - /url: https://presolv360.com/
+    - img [ref=e4]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - heading "Create your account" [level=4] [ref=e8]
+      - paragraph [ref=e9]: Fill the details to register.
+    - form [ref=e10]:
+      - generic [ref=e11]:
+        - textbox "Name must contain only alphabets without space" [ref=e13]:
+          - /placeholder: First Name*
+        - textbox "Last Name must contain only alphabets without space" [ref=e15]:
+          - /placeholder: Last Name*
+      - generic [ref=e16]:
+        - textbox "Mobile" [ref=e18]
+        - textbox "Email*" [ref=e20]
+      - generic [ref=e22]: "Note: This field is only for mobile numbers registered in India."
+      - textbox "Please enter at least 2 characters, including letters, numbers, and special characters." [ref=e24]:
+        - /placeholder: Organization*
+      - textbox "Username must contain only alphanumeric characters" [ref=e26]:
+        - /placeholder: "Username*: Minimum 6 characters"
+      - generic [ref=e28]:
+        - textbox "Password must contain at least 6 characters, including 1 uppercase letter, 1 lowercase letter, and 1 numerical digit" [ref=e29]:
+          - /placeholder: Password*
+        - img [ref=e31] [cursor=pointer]
+      - generic [ref=e35]:
+        - textbox "Confirm Password must contain at least 6 characters, including 1 uppercase letter, 1 lowercase letter, and 1 numerical digit" [ref=e36]:
+          - /placeholder: "Confirm Password*: Should be same as Password"
+        - img [ref=e38] [cursor=pointer]
+      - generic [ref=e42]:
+        - generic [ref=e44]: Register As*
+        - generic [ref=e45]:
+          - radio "Party" [ref=e46]
+          - text: Party
+        - generic [ref=e47]:
+          - radio "Arbitrator" [ref=e48]
+          - text: Arbitrator
+      - generic [ref=e50]:
+        - checkbox "I have read and agree to the Terms & Conditions, Privacy Policy and Cookie Policy." [ref=e51]
+        - generic [ref=e52]:
+          - text: I have read and agree to the
+          - link "Terms & Conditions" [ref=e53] [cursor=pointer]:
+            - /url: https://presolv360.com/terms-conditions
+          - text: ","
+          - link "Privacy Policy" [ref=e54] [cursor=pointer]:
+            - /url: https://presolv360.com/privacy-policy
+          - text: and
+          - link "Cookie Policy" [ref=e55] [cursor=pointer]:
+            - /url: https://presolv360.com/cookie-policy
+          - text: .
+      - button "Create Account" [disabled] [ref=e57]
+      - paragraph [ref=e58]:
+        - text: Already have an account?
+        - link "Login here" [ref=e59] [cursor=pointer]:
+          - /url: https://presolv360.com/login
+  - contentinfo [ref=e60]: Presolv360 © 2026 All rights reserved.

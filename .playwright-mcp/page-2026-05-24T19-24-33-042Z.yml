@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - link [ref=e3] [cursor=pointer]:
+    - /url: https://presolv360.com/
+    - img [ref=e4]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - heading "Login to your account" [level=4] [ref=e8]
+      - paragraph [ref=e9]: Enter your details to login.
+    - form [ref=e10]:
+      - generic [ref=e11]:
+        - text: Username*
+        - textbox "Username" [ref=e12]
+      - generic [ref=e13]:
+        - text: Password*
+        - generic [ref=e14]:
+          - textbox "••••••••" [ref=e15]
+          - img [ref=e17] [cursor=pointer]
+      - generic [ref=e21]:
+        - checkbox "I have read and agree to the Terms & Conditions, Privacy Policy and Cookie Policy." [ref=e22]
+        - generic [ref=e23]:
+          - text: I have read and agree to the
+          - link "Terms & Conditions" [ref=e24] [cursor=pointer]:
+            - /url: https://presolv360.com/terms-conditions
+          - text: ","
+          - link "Privacy Policy" [ref=e25] [cursor=pointer]:
+            - /url: https://presolv360.com/privacy-policy
+          - text: and
+          - link "Cookie Policy" [ref=e26] [cursor=pointer]:
+            - /url: https://presolv360.com/cookie-policy
+          - text: .
+      - button "Login" [ref=e28] [cursor=pointer]
+      - button "Forgot Password?" [ref=e30] [cursor=pointer]
+      - button "Forgot Username?" [ref=e32] [cursor=pointer]
+      - paragraph [ref=e33]:
+        - text: Don’t have an account?
+        - link "Create account" [ref=e34] [cursor=pointer]:
+          - /url: https://presolv360.com/register
+  - contentinfo [ref=e35]: Presolv360 © 2026 All rights reserved.

@@ -1,0 +1,97 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "About" [ref=e4] [cursor=pointer]:
+      - /url: https://about.google/?fg=1&utm_source=google-IN&utm_medium=referral&utm_campaign=hp-header
+    - link "Store" [ref=e5] [cursor=pointer]:
+      - /url: https://store.google.com/IN?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-IN
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "Gmail" [ref=e10] [cursor=pointer]:
+          - /url: https://mail.google.com/mail/&ogbl
+        - link "Search for Images" [ref=e12] [cursor=pointer]:
+          - /url: https://www.google.com/imghp?hl=en&ogbl
+          - text: Images
+      - button "Google apps" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+      - link "Sign in" [ref=e20] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+  - img "Google" [ref=e23]
+  - search [ref=e31]:
+    - generic [ref=e33]:
+      - generic [ref=e35]:
+        - button "Add files and tools" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+        - combobox "Search" [active] [ref=e43]
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - button "Search by voice" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+            - button "Search by image" [ref=e49] [cursor=pointer]:
+              - img [ref=e50]
+          - link "AI Mode" [ref=e52] [cursor=pointer]:
+            - generic [ref=e54]:
+              - img [ref=e56]
+              - generic [ref=e63]: AI Mode
+      - generic [ref=e65]:
+        - button "Google Search" [ref=e66] [cursor=pointer]
+        - button "I'm Feeling Lucky" [ref=e67] [cursor=pointer]
+  - generic [ref=e68]:
+    - generic [ref=e70]:
+      - text: "Google offered in:"
+      - link "हिन्दी" [ref=e71] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_77xwH4yYH8ynUCEjD3a_Q3u_RiA%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwiBw_iF0tKUAxWKSGwGHVWIOOEQ2ZgBCCY
+      - link "বাংলা" [ref=e72] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_77xwH4yYH8ynUCEjD3a_Q3u_RiA%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwiBw_iF0tKUAxWKSGwGHVWIOOEQ2ZgBCCc
+      - link "తెలుగు" [ref=e73] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_77xwH4yYH8ynUCEjD3a_Q3u_RiA%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwiBw_iF0tKUAxWKSGwGHVWIOOEQ2ZgBCCg
+      - link "मराठी" [ref=e74] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_77xwH4yYH8ynUCEjD3a_Q3u_RiA%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwiBw_iF0tKUAxWKSGwGHVWIOOEQ2ZgBCCk
+      - link "தமிழ்" [ref=e75] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_77xwH4yYH8ynUCEjD3a_Q3u_RiA%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiBw_iF0tKUAxWKSGwGHVWIOOEQ2ZgBCCo
+      - link "ગુજરાતી" [ref=e76] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_77xwH4yYH8ynUCEjD3a_Q3u_RiA%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwiBw_iF0tKUAxWKSGwGHVWIOOEQ2ZgBCCs
+      - link "ಕನ್ನಡ" [ref=e77] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_77xwH4yYH8ynUCEjD3a_Q3u_RiA%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwiBw_iF0tKUAxWKSGwGHVWIOOEQ2ZgBCCw
+      - link "മലയാളം" [ref=e78] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_77xwH4yYH8ynUCEjD3a_Q3u_RiA%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwiBw_iF0tKUAxWKSGwGHVWIOOEQ2ZgBCC0
+      - link "ਪੰਜਾਬੀ" [ref=e79] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_77xwH4yYH8ynUCEjD3a_Q3u_RiA%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwiBw_iF0tKUAxWKSGwGHVWIOOEQ2ZgBCC4
+    - generic [ref=e83]:
+      - button "Ask anything Learn, plan, write and more" [ref=e84] [cursor=pointer]:
+        - generic [ref=e88]:
+          - generic [ref=e89]: Ask anything
+          - generic [ref=e90]: Learn, plan, write and more
+      - button "Create & transform images Unleash your imagination in AI Mode" [ref=e91] [cursor=pointer]:
+        - generic [ref=e95]:
+          - generic [ref=e96]: Create & transform images
+          - generic [ref=e97]: Unleash your imagination in AI Mode
+      - generic [ref=e98]:
+        - link "Helpful tips Get the most out of AI Mode" [ref=e99] [cursor=pointer]:
+          - /url: https://goo.gle/aimodetips
+          - generic [ref=e101]: spark
+          - generic [ref=e102]:
+            - generic [ref=e103]: Helpful tips
+            - generic [ref=e104]: Get the most out of AI Mode
+        - link "News from Google I/O See what's coming to Search" [ref=e105] [cursor=pointer]:
+          - /url: https://blog.google/products-and-platforms/products/search/search-io-2026?utm_source=HP&utm_campaign=IOMoment
+          - img [ref=e107]
+          - generic [ref=e111]:
+            - generic [ref=e112]: News from Google I/O
+            - generic [ref=e113]: See what's coming to Search
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]: India
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - link "Advertising" [ref=e119] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+        - link "Business" [ref=e120] [cursor=pointer]:
+          - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+        - link "How Search works" [ref=e121] [cursor=pointer]:
+          - /url: https://google.com/search/howsearchworks/?fg=1
+      - generic [ref=e122]:
+        - link "Privacy" [ref=e123] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+        - link "Terms" [ref=e124] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=en-IN&fg=1
+        - button "Settings" [ref=e128] [cursor=pointer]:
+          - generic [ref=e129]: Settings

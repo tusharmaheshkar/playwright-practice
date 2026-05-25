@@ -1,0 +1,1372 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Search" [ref=e25]: buy flower buy flower
+            - generic [ref=e26]:
+              - button "Clear" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Search by voice" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Search by image" [ref=e37] [cursor=pointer]:
+                  - img [ref=e38]
+          - button "Search" [ref=e40] [cursor=pointer]:
+            - img [ref=e43]
+    - generic [ref=e45]:
+      - button "Settings" [ref=e47] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbuy%2Bflower%26sca_esv%3Da26c9df86d20384d%26source%3Dhp%26ei%3DCU8TasGaDIqRseMP1ZDiiQ4%26iflsig%3DAFdpzrgAAAAAahNdGe1UOeVDhElKdzl6b7nf9fg32foe%26ved%3D0ahUKEwiBw_iF0tKUAxWKSGwGHVWIOOEQ4dUDCBs%26uact%3D5%26oq%3Dbuy%2Bflower%26gs_lp%3DEgdnd3Mtd2l6IgpidXkgZmxvd2VySBBQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAJIHAKAHALIHALgHAMIHAMgHAIAIAQ%26sclient%3Dgws-wiz%26sei%3DHk8TaoG6A4nm2roP7Kfo0Qs&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&udm=50&source=hp&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7N7ichJoHtISusgmLxg0ZDh57Xdxg33yzPrWo9N4jrO64-WA2ycJfWZJTZoZzh6XqIG0SmzqP4XZC44J8nsCn1xpjBbpZWLYK89iemQJ3R6mBrfNmaIR2VUW9UbBK-7JGNVAQ5rA&aep=1&ntc=1&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q2J8OegQIDRAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Shopping" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=a26c9df86d20384d&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7N7ichJoHtISusgmLxg0ZDh57Xdxg33yzPrWo9N4jrO64-WA2ycJfWZJTZoZzh6XqIG0SmzqP4XZC44J8nsCn1xpjBbpZWLYK89iemQJ3R6mBrfNmaIR2VUW9UbBK-7JGNVAQ5rA&q=buy+flower&ved=1t:220175&ictx=111
+              - generic [ref=e90]: Shopping
+          - listitem [ref=e91]:
+            - link "Images" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=a26c9df86d20384d&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7N7ichJoHtISusgmLxg0ZDh57Xdxg33yzPrWo9N4jrO64-WA2ycJfWZJTZoZzh6XqIG0SmzqP4XZC44J8nsCn1xpjBbpZWLYK89iemQJ3R6mBrfNmaIR2VUW9UbBK-7JGNVAQ5rA&q=buy+flower&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QtKgLegQIExAB
+              - generic [ref=e94]: Images
+          - listitem [ref=e95]:
+            - link "Short videos" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=a26c9df86d20384d&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7N7ichJoHtISusgmLxg0ZDh57Xdxg33yzPrWo9N4jrO64-WA2ycJfWZJTZoZzh6XqIG0SmzqP4XZC44J8nsCn1xpjBbpZWLYK89iemQJ3R6mBrfNmaIR2VUW9UbBK-7JGNVAQ5rA&q=buy+flower&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qs6gLegQIGBAB
+              - generic [ref=e98]: Short videos
+          - listitem [ref=e99]:
+            - link "Videos" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=a26c9df86d20384d&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7N7ichJoHtISusgmLxg0ZDh57Xdxg33yzPrWo9N4jrO64-WA2ycJfWZJTZoZzh6XqIG0SmzqP4XZC44J8nsCn1xpjBbpZWLYK89iemQJ3R6mBrfNmaIR2VUW9UbBK-7JGNVAQ5rA&q=buy+flower&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QtKgLegQIFhAB
+              - generic [ref=e102]: Videos
+          - listitem [ref=e103]:
+            - link "News" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=a26c9df86d20384d&q=buy+flower&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7N7ichJoHtISusgmLxg0ZDh57Xdxg33yzPrWo9N4jrO64-WA2ycJfWZJTZoZzh6XqIG0SmzqP4XZC44J8nsCn1xpjBbpZWLYK89iemQJ3R6mBrfNmaIR2VUW9UbBK-7JGNVAQ5rA&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q0pQJegQIEhAB
+              - generic [ref=e106]: News
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - navigation "Refinement" [ref=e131]:
+      - generic [ref=e133]:
+        - list [ref=e136]:
+          - button "All filters." [ref=e137] [cursor=pointer]:
+            - img [ref=e139]
+          - listitem [ref=e141] [cursor=pointer]:
+            - link "Online filter. Not selected." [ref=e142]:
+              - /url: /search?q=online+buy+flower&shoprs=CAEYEioKYnV5IGZsb3dlcjIKCBISBk9ubGluZWAB&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAF6BAgbEEk
+              - generic [ref=e144]: Online
+          - listitem [ref=e145] [cursor=pointer]:
+            - link "Plants, Flowers & Seeds filter. Not selected." [ref=e146]:
+              - /url: /search?q=plants,+flowers+%26+seeds+buy+flower&shoprs=CAEYCSoKYnV5IGZsb3dlcjIbCAkSF1BsYW50cywgRmxvd2VycyAmIFNlZWRzYAE&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAJ6BAgbEEo
+              - generic [ref=e148]: Plants, Flowers & Seeds
+          - listitem [ref=e149] [cursor=pointer]:
+            - link "Nearby filter. Not selected." [ref=e150]:
+              - /url: /search?q=buy+flower+nearby&shoprs=CAEYAyoKYnV5IGZsb3dlcjIMCAMSBk5lYXJieRgCWJP1IGAB&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAN6BAgbEEs
+              - generic [ref=e151]:
+                - img [ref=e155]
+                - generic [ref=e158]: Nearby
+          - listitem [ref=e159] [cursor=pointer]:
+            - link "Under ₹350 filter. Not selected." [ref=e160]:
+              - /url: /search?q=buy+flower+under+350&shoprs=CAESDRILEQAAAICT3LRBGAEYBSoKYnV5IGZsb3dlcjIlCAUSDFVuZGVyIOKCuTM1MBgCIg0SCxEAAACAk9y0QRgBKgIYAViT9SBgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAR6BAgbEEw
+              - generic [ref=e162]: Under ₹350
+          - listitem [ref=e163] [cursor=pointer]:
+            - link "Bouquet filter. Not selected." [ref=e164]:
+              - /url: /search?q=bouquet+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIXCAESB0JvdXF1ZXQ6Cgjw2S4Q8tkuMAJYk_UgYAE&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAV6BAgbEE0
+              - generic [ref=e166]: Bouquet
+          - listitem [ref=e167] [cursor=pointer]:
+            - link "Price filter. Not selected." [ref=e168]:
+              - /url: /search?q=price+buy+flower&shoprs=CAEYEioKYnV5IGZsb3dlcjIJCBISBVByaWNlYAE&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAZ6BAgbEE4
+              - generic [ref=e170]: Price
+          - listitem [ref=e171] [cursor=pointer]:
+            - link "Rose filter. Not selected." [ref=e172]:
+              - /url: /search?q=rose+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIUCAESBFJvc2U6CgiT2i4QldouMABYk_UgYAE&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAd6BAgbEE8
+              - generic [ref=e174]: Rose
+          - listitem [ref=e175] [cursor=pointer]:
+            - link "On sale filter. Not selected." [ref=e176]:
+              - /url: /search?q=buy+flower+sale&shoprs=CAESBEoCCAEYBioKYnV5IGZsb3dlcjITCAYSB09uIHNhbGUYAiIESgIIAViT9SBgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAh6BAgbEFA
+              - generic [ref=e178]: On sale
+          - listitem [ref=e179] [cursor=pointer]:
+            - link "Artificial Flora filter. Not selected." [ref=e180]:
+              - /url: /search?q=artificial+flora+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIgCAESEEFydGlmaWNpYWwgRmxvcmE6CgiFzV8Qh81fMAJYk_UgYAE&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAl6BAgbEFE
+              - generic [ref=e182]: Artificial Flora
+          - listitem [ref=e183] [cursor=pointer]:
+            - link "Meaning filter. Not selected." [ref=e184]:
+              - /url: /search?q=meaning+buy+flower&shoprs=CAEYEioKYnV5IGZsb3dlcjILCBISB01lYW5pbmdgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAp6BAgbEFI
+              - generic [ref=e186]: Meaning
+          - listitem [ref=e187] [cursor=pointer]:
+            - link "Images filter. Not selected." [ref=e188]:
+              - /url: /search?q=images+buy+flower&shoprs=CAEYEioKYnV5IGZsb3dlcjIKCBISBkltYWdlc2AB&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAt6BAgbEFM
+              - generic [ref=e190]: Images
+          - listitem [ref=e191] [cursor=pointer]:
+            - link "Reviews filter. Not selected." [ref=e192]:
+              - /url: /search?q=reviews+buy+flower&shoprs=CAEYEioKYnV5IGZsb3dlcjILCBISB1Jldmlld3NgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKAx6BAgbEFQ
+              - generic [ref=e194]: Reviews
+          - listitem [ref=e195] [cursor=pointer]:
+            - link "Seeds & Bulbs filter. Not selected." [ref=e196]:
+              - /url: /search?q=seeds+%26+bulbs+buy+flower&shoprs=CAEYCSoKYnV5IGZsb3dlcjIRCAkSDVNlZWRzICYgQnVsYnNgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKA16BAgbEFU
+              - generic [ref=e198]: Seeds & Bulbs
+          - listitem [ref=e199] [cursor=pointer]:
+            - link "Wedding filter. Not selected." [ref=e200]:
+              - /url: /search?q=wedding+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIXCAESB1dlZGRpbmc6CgjTpUUQ1KVFMABYk_UgYAE&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKA56BAgbEFY
+              - generic [ref=e202]: Wedding
+          - listitem [ref=e203] [cursor=pointer]:
+            - link "Small filter. Not selected." [ref=e204]:
+              - /url: /search?q=small+buy+flower&shoprs=CAEYEioKYnV5IGZsb3dlcjIJCBISBVNtYWxsYAE&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKA96BAgbEFc
+              - generic [ref=e206]: Small
+          - listitem [ref=e207] [cursor=pointer]:
+            - link "Dried Flora filter. Not selected." [ref=e208]:
+              - /url: /search?q=dried+flora+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIbCAESC0RyaWVkIEZsb3JhOgoIhc1fEIjNXzACWJP1IGAB&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBB6BAgbEFg
+              - generic [ref=e210]: Dried Flora
+          - listitem [ref=e211] [cursor=pointer]:
+            - link "Lily filter. Not selected." [ref=e212]:
+              - /url: /search?q=lily+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIUCAESBExpbHk6CgiT2i4QnNouMABYk_UgYAE&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBF6BAgbEFk
+              - generic [ref=e214]: Lily
+          - listitem [ref=e215] [cursor=pointer]:
+            - link "Sunflower filter. Not selected." [ref=e216]:
+              - /url: /search?q=sunflower+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIZCAESCVN1bmZsb3dlcjoKCJPaLhCg2i4wAFiT9SBgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBJ6BAgbEFo
+              - generic [ref=e218]: Sunflower
+          - listitem [ref=e219] [cursor=pointer]:
+            - link "Store filter. Not selected." [ref=e220]:
+              - /url: /search?q=store+buy+flower&shoprs=CAEYEioKYnV5IGZsb3dlcjIJCBISBVN0b3JlYAE&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBN6BAgbEFs
+              - generic [ref=e222]: Store
+          - listitem [ref=e223] [cursor=pointer]:
+            - link "Outdoor filter. Not selected." [ref=e224]:
+              - /url: /search?q=outdoor+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIXCAESB091dGRvb3I6CgimgnIQqoJyMAJYk_UgYAE&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBR6BAgbEFw
+              - generic [ref=e226]: Outdoor
+          - listitem [ref=e227] [cursor=pointer]:
+            - link "Man filter. Not selected." [ref=e228]:
+              - /url: /search?q=man+buy+flower&shoprs=CAEYEioKYnV5IGZsb3dlcjIHCBISA01hbmAB&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBV6BAgbEF0
+              - generic [ref=e230]: Man
+          - listitem [ref=e231] [cursor=pointer]:
+            - link "Free delivery filter. Not selected." [ref=e232]:
+              - /url: /search?q=buy+flower+free+delivery&shoprs=CAESBFICEAEYGSoKYnV5IGZsb3dlcjIXCBkSDUZyZWUgZGVsaXZlcnkiBFICEAFgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBZ6BAgbEF4
+              - generic [ref=e234]: Free delivery
+          - listitem [ref=e235] [cursor=pointer]:
+            - link "Orchid filter. Not selected." [ref=e236]:
+              - /url: /search?q=orchid+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIWCAESBk9yY2hpZDoKCJPaLhCd2i4wAFiT9SBgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBd6BAgbEF8
+              - generic [ref=e238]: Orchid
+          - listitem [ref=e239] [cursor=pointer]:
+            - link "Indoor filter. Not selected." [ref=e240]:
+              - /url: /search?q=indoor+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIWCAESBkluZG9vcjoKCKaCchCognIwAliT9SBgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBh6BAgbEGA
+              - generic [ref=e242]: Indoor
+          - listitem [ref=e243] [cursor=pointer]:
+            - link "Anniversary filter. Not selected." [ref=e244]:
+              - /url: /search?q=anniversary+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIbCAESC0Fubml2ZXJzYXJ5OgoI06VFENilRTAAWJP1IGAB&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBl6BAgbEGE
+              - generic [ref=e246]: Anniversary
+          - listitem [ref=e247] [cursor=pointer]:
+            - link "Valentine's Day filter. Not selected." [ref=e248]:
+              - /url: /search?q=valentine's+day+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIfCAESD1ZhbGVudGluZSdzIERheToKCNOlRRDbpUUwAFiT9SBgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBp6BAgbEGI
+              - generic [ref=e250]: Valentine's Day
+          - listitem [ref=e251] [cursor=pointer]:
+            - link "Gerber Daisy filter. Not selected." [ref=e252]:
+              - /url: /search?q=gerber+daisy+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIcCAESDEdlcmJlciBEYWlzeToKCJPaLhCh2i4wAFiT9SBgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBt6BAgbEGM
+              - generic [ref=e254]: Gerber Daisy
+          - listitem [ref=e255] [cursor=pointer]:
+            - link "FERNS N PETALS filter. Not selected." [ref=e256]:
+              - /url: /search?q=ferns+n+petals+buy+flower&shoprs=CAEYASoKYnV5IGZsb3dlcjIfCAESDkZFUk5TIE4gUEVUQUxTOgsIg_M8EOOw6gEwAViT9SBgAQ&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qip4GKBx6BAgbEGQ
+              - generic [ref=e258]: FERNS N PETALS
+        - button [ref=e259] [cursor=pointer]
+    - main [ref=e264]:
+      - generic [ref=e265]:
+        - generic [ref=e270]:
+          - heading "Hyderabad, Telangana 500075" [level=2] [ref=e271]:
+            - img [ref=e274]:
+              - img [ref=e275]
+            - generic [ref=e278]: Hyderabad, Telangana 500075
+          - button "How location is used" [ref=e290] [cursor=pointer]:
+            - img [ref=e292]
+        - region "Ads" [ref=e295]:
+          - generic [ref=e296]:
+            - heading "Sponsored results" [level=2] [ref=e303]
+            - generic [ref=e304]:
+              - generic [ref=e311]:
+                - generic [ref=e317]:
+                  - link "Image from fnp.com" [ref=e319] [cursor=pointer]:
+                    - /url: https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwiUmY-Q0tKUAxX9XA8CHassC1MYACICCAEQDhoCdGI&co=1&ase=2&gclid=EAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYASADEgIqnPD_BwE&cid=CAASuwHkaC3c5K6h4wFsKAKAwGRbkwID2656eDHmk28ZA9fLCKj1xvd_QKSFAZ4Yx2cJ5XRkdj9buQqRdQpzJnTNcIn-zw6Pxct9XO0sfASZvamuWNEfXNTLoP_j70XmG7J_q4rxKsw2cXXDTw3XAxGAl7i4fvU1fY4MjwFaIn6-YkRvH6rl9PFJiBpzMzvKtuyFzTnnr1DBC3hvuLEKPrPCD4hQQ4t7KsIZBbKfDTq6ZuuklgxzWbuhG0Vjhdgm&cce=2&category=acrcp_v1_32&sig=AOD64_3GQPkiRONMxlxPXl4mCgIyvZz_5Q&q=&nis=4&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qh78CegQIFRAB&adurl=https://www.fnp.com/flowers-lp%3Futm_source%3DGoogle%26utm_medium%3Dcpc%26utm_campaign%3D22473272620-kwd-23563321-747732165259%26utm_adgroup%3D178670126575%26utm_keyword%3Dbuy%2520flower%26searchterm%3D%7Bsearchterm%7D%26utm_device%3Dc%26utm_placement%3D%26utm_network%3Dg%26gad_source%3D1%26gad_campaignid%3D22473272620%26gclid%3DEAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYASADEgIqnPD_BwE
+                    - img "Image from fnp.com" [ref=e321]
+                  - generic [ref=e322]:
+                    - link "Same Day Flower Delivery Pan-India - Free Delivery in 1 Hour FNP https://www.fnp.com" [ref=e323] [cursor=pointer]:
+                      - /url: https://www.fnp.com/flowers-lp
+                      - heading "Same Day Flower Delivery Pan-India - Free Delivery in 1 Hour" [level=3] [ref=e325]
+                      - generic [ref=e331]:
+                        - generic [ref=e333]: FNP
+                        - generic [ref=e334]: https://www.fnp.com
+                    - button "Why this ad?" [ref=e337] [cursor=pointer]:
+                      - img [ref=e339]
+                  - generic [ref=e344]:
+                    - text: Send fresh
+                    - emphasis [ref=e345]: flowers
+                    - text: "& heartfelt wishes, delivered with love & care."
+                    - emphasis [ref=e346]: Buy
+                    - text: Fresh
+                    - emphasis [ref=e347]: Flowers
+                    - text: Online with FNP® - Enjoy Same-day Delivery and Free Shipping. Same...
+                  - generic [ref=e349]:
+                    - text: ‎
+                    - link "Buy Flower" [ref=e350] [cursor=pointer]:
+                      - /url: /aclk?sa=L&pf=1&ai=DChsSEwiUmY-Q0tKUAxX9XA8CHassC1MYACICCAEQERoCdGI&co=1&ase=2&gclid=EAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYASAEEgKNgPD_BwE&cid=CAASuwHkaC3c5K6h4wFsKAKAwGRbkwID2656eDHmk28ZA9fLCKj1xvd_QKSFAZ4Yx2cJ5XRkdj9buQqRdQpzJnTNcIn-zw6Pxct9XO0sfASZvamuWNEfXNTLoP_j70XmG7J_q4rxKsw2cXXDTw3XAxGAl7i4fvU1fY4MjwFaIn6-YkRvH6rl9PFJiBpzMzvKtuyFzTnnr1DBC3hvuLEKPrPCD4hQQ4t7KsIZBbKfDTq6ZuuklgxzWbuhG0Vjhdgm&cce=2&category=acrcp_v1_32&sig=AOD64_1aBrknfxiZoDm7i9KjgCznGT5CTg&adurl=https://www.fnp.com/flowers-lp%3Futm_source%3DGoogle%26utm_medium%3Dcpc%26utm_campaign%3D22473272620-kwd-23563321-747732165259%26utm_adgroup%3D178670126575%26utm_keyword%3Dbuy%2520flower%26searchterm%3D%7Bsearchterm%7D%26utm_device%3Dc%26utm_placement%3D%26utm_network%3Dg%26gad_source%3D1%26gad_campaignid%3D22473272620%26gclid%3DEAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYASAEEgKNgPD_BwE&q=
+                    - text: · ‎
+                    - link "Same Day Flowers Delivery" [ref=e351] [cursor=pointer]:
+                      - /url: https://www.fnp.com/same-day-delivery-flowers-lp
+                    - text: · ‎
+                    - link "Birthday Flowers & Gifts" [ref=e352] [cursor=pointer]:
+                      - /url: https://www.fnp.com/gifts/birthday-lp
+                    - text: · ‎
+                    - link "Shop Flowers Online at FNP" [ref=e353] [cursor=pointer]:
+                      - /url: /aclk?sa=L&pf=1&ai=DChsSEwiUmY-Q0tKUAxX9XA8CHassC1MYACICCAEQFBoCdGI&co=1&ase=2&gclid=EAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYASAFEgJsAfD_BwE&cid=CAASuwHkaC3c5K6h4wFsKAKAwGRbkwID2656eDHmk28ZA9fLCKj1xvd_QKSFAZ4Yx2cJ5XRkdj9buQqRdQpzJnTNcIn-zw6Pxct9XO0sfASZvamuWNEfXNTLoP_j70XmG7J_q4rxKsw2cXXDTw3XAxGAl7i4fvU1fY4MjwFaIn6-YkRvH6rl9PFJiBpzMzvKtuyFzTnnr1DBC3hvuLEKPrPCD4hQQ4t7KsIZBbKfDTq6ZuuklgxzWbuhG0Vjhdgm&cce=2&category=acrcp_v1_32&sig=AOD64_22DpgIlNfpd53YYh4HXrHUoCMQGA&adurl=https://www.fnp.com/flowers-lp%3Futm_source%3DGoogle%26utm_medium%3Dcpc%26utm_campaign%3D22473272620-kwd-23563321-747732165259%26utm_adgroup%3D178670126575%26utm_keyword%3Dbuy%2520flower%26searchterm%3D%7Bsearchterm%7D%26utm_device%3Dc%26utm_placement%3D%26utm_network%3Dg%26gad_source%3D1%26gad_campaignid%3D22473272620%26gclid%3DEAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYASAFEgJsAfD_BwE&q=
+                - generic [ref=e359]:
+                  - link "Image from interflora.in" [ref=e361] [cursor=pointer]:
+                    - /url: https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwiUmY-Q0tKUAxX9XA8CHassC1MYACICCAEQDxoCdGI&co=1&ase=2&gclid=EAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYAiAEEgLum_D_BwE&cid=CAASuwHkaC3c5K6h4wFsKAKAwGRbkwID2656eDHmk28ZA9fLCKj1xvd_QKSFAZ4Yx2cJ5XRkdj9buQqRdQpzJnTNcIn-zw6Pxct9XO0sfASZvamuWNEfXNTLoP_j70XmG7J_q4rxKsw2cXXDTw3XAxGAl7i4fvU1fY4MjwFaIn6-YkRvH6rl9PFJiBpzMzvKtuyFzTnnr1DBC3hvuLEKPrPCD4hQQ4t7KsIZBbKfDTq6ZuuklgxzWbuhG0Vjhdgm&cce=2&category=acrcp_v1_32&sig=AOD64_2yaH3OMlN8lzFDpUhDSTykyfOLxA&q=&nis=4&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qh78CegQIFxAB&adurl=https://www.interflora.in/same-day-flowers-delivery%3Fsl%3D1%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3D13907176992%26adgroupid%3D122163573582%26device%3Dc%26keyword%3Dsame%2520day%2520flowers%26loc_interest_ms%3D%26loc_physical_ms%3D9062143%26feeditemid%3D%26adposition%3D%26gad_source%3D1%26gad_campaignid%3D13907176992%26gbraid%3D0AAAAADFhZAloQ5b3HiFSP_bxzBStyAt2Q%26gclid%3DEAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYAiAEEgLum_D_BwE
+                    - img "Image from interflora.in" [ref=e363]
+                  - generic [ref=e364]:
+                    - link "Send Premium Flowers Online Interflora India™ https://www.interflora.in" [ref=e365] [cursor=pointer]:
+                      - /url: https://www.interflora.in/same-day-flowers-delivery
+                      - heading "Send Premium Flowers Online" [level=3] [ref=e367]
+                      - generic [ref=e373]:
+                        - generic [ref=e375]: Interflora India™
+                        - generic [ref=e376]: https://www.interflora.in
+                    - button "Why this ad?" [ref=e379] [cursor=pointer]:
+                      - img [ref=e381]
+                  - generic [ref=e386]:
+                    - text: Send Blooms, Spread Joy — World's Largest
+                    - emphasis [ref=e387]: Flower
+                    - text: Company Now In India. Freshness Guaranteed for 5Days! Send Signature...
+                  - generic [ref=e389]:
+                    - text: ‎
+                    - link "Luxury Flowers" [ref=e390] [cursor=pointer]:
+                      - /url: https://www.interflora.in/luxury-flowers
+                    - text: · ‎
+                    - link "Premium Flower Bouquets" [ref=e391] [cursor=pointer]:
+                      - /url: /aclk?sa=L&pf=1&ai=DChsSEwiUmY-Q0tKUAxX9XA8CHassC1MYACICCAEQExoCdGI&co=1&ase=2&gclid=EAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYAiAFEgJrYPD_BwE&cid=CAASuwHkaC3c5K6h4wFsKAKAwGRbkwID2656eDHmk28ZA9fLCKj1xvd_QKSFAZ4Yx2cJ5XRkdj9buQqRdQpzJnTNcIn-zw6Pxct9XO0sfASZvamuWNEfXNTLoP_j70XmG7J_q4rxKsw2cXXDTw3XAxGAl7i4fvU1fY4MjwFaIn6-YkRvH6rl9PFJiBpzMzvKtuyFzTnnr1DBC3hvuLEKPrPCD4hQQ4t7KsIZBbKfDTq6ZuuklgxzWbuhG0Vjhdgm&cce=2&category=acrcp_v1_32&sig=AOD64_1fNJ-BYZKSTys9RYo2hgY2_onb6Q&adurl=https://www.interflora.in/same-day-flowers-delivery%3Fsl%3D1%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3D13907176992%26adgroupid%3D122163573582%26device%3Dc%26keyword%3Dsame%2520day%2520flowers%26loc_interest_ms%3D%26loc_physical_ms%3D9062143%26feeditemid%3D%26adposition%3D%26gad_source%3D1%26gad_campaignid%3D13907176992%26gbraid%3D0AAAAADFhZAloQ5b3HiFSP_bxzBStyAt2Q%26gclid%3DEAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYAiAFEgJrYPD_BwE&q=
+                    - text: · ‎
+                    - link "Same Day Delivery" [ref=e392] [cursor=pointer]:
+                      - /url: https://www.interflora.in/same-day-flowers-delivery
+                    - text: · ‎
+                    - link "Flower Delivery in Pune" [ref=e393] [cursor=pointer]:
+                      - /url: https://www.interflora.in/flowers-to-pune
+                - generic [ref=e399]:
+                  - link "Image from floweraura.com" [ref=e401] [cursor=pointer]:
+                    - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwiUmY-Q0tKUAxX9XA8CHassC1MYACICCAEQEhoCdGI&co=1&ase=2&gclid=EAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYAyAGEgKkrPD_BwE&cid=CAASuwHkaC3c5K6h4wFsKAKAwGRbkwID2656eDHmk28ZA9fLCKj1xvd_QKSFAZ4Yx2cJ5XRkdj9buQqRdQpzJnTNcIn-zw6Pxct9XO0sfASZvamuWNEfXNTLoP_j70XmG7J_q4rxKsw2cXXDTw3XAxGAl7i4fvU1fY4MjwFaIn6-YkRvH6rl9PFJiBpzMzvKtuyFzTnnr1DBC3hvuLEKPrPCD4hQQ4t7KsIZBbKfDTq6ZuuklgxzWbuhG0Vjhdgm&cce=2&category=acrcp_v1_32&sig=AOD64_1LFTPpa1XjFL6PgbQLsUcAwjVPqg&q=&nis=4&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qh78CegQIFBAB&adurl=
+                    - img "Image from floweraura.com" [ref=e403]
+                  - generic [ref=e404]:
+                    - link "Order Flower Bouquet Online - Starting @ Rs 399 Only FlowerAura https://www.floweraura.com › bouquet › online" [ref=e405] [cursor=pointer]:
+                      - /url: https://www.floweraura.com/flowers/bouquet
+                      - heading "Order Flower Bouquet Online - Starting @ Rs 399 Only" [level=3] [ref=e407]
+                      - generic [ref=e413]:
+                        - generic [ref=e415]: FlowerAura
+                        - generic [ref=e416]: https://www.floweraura.com › bouquet › online
+                    - button "Why this ad?" [ref=e419] [cursor=pointer]:
+                      - img [ref=e421]
+                  - generic [ref=e426]:
+                    - text: Embrace the beauty of emotions, delivered with every
+                    - emphasis [ref=e427]: Flower
+                    - text: Bouquet.
+                  - generic [ref=e429]:
+                    - text: ‎
+                    - link "Flower Bouquet" [ref=e430] [cursor=pointer]:
+                      - /url: https://www.floweraura.com/anniversary/flowers
+                    - text: · ‎
+                    - link "Flower In Vase" [ref=e431] [cursor=pointer]:
+                      - /url: https://www.floweraura.com/flowers/glass-vase
+                    - text: · ‎
+                    - link "Fresh Orchid Flowers" [ref=e432] [cursor=pointer]:
+                      - /url: https://www.floweraura.com/flowers/orchids
+                    - text: · ‎
+                    - link "Bestseller Flowers" [ref=e433] [cursor=pointer]:
+                      - /url: https://www.floweraura.com/flowers/best-seller
+                    - text: · ‎
+                    - link "Luxury Flower" [ref=e434] [cursor=pointer]:
+                      - /url: https://www.floweraura.com/flowers/luxury
+                - generic [ref=e440]:
+                  - link "Image from igp.com" [ref=e442] [cursor=pointer]:
+                    - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwiUmY-Q0tKUAxX9XA8CHassC1MYACICCAEQBRoCdGI&co=1&ase=2&gclid=EAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAAYBCABEgJPn_D_BwE&cid=CAASuwHkaC3c5K6h4wFsKAKAwGRbkwID2656eDHmk28ZA9fLCKj1xvd_QKSFAZ4Yx2cJ5XRkdj9buQqRdQpzJnTNcIn-zw6Pxct9XO0sfASZvamuWNEfXNTLoP_j70XmG7J_q4rxKsw2cXXDTw3XAxGAl7i4fvU1fY4MjwFaIn6-YkRvH6rl9PFJiBpzMzvKtuyFzTnnr1DBC3hvuLEKPrPCD4hQQ4t7KsIZBbKfDTq6ZuuklgxzWbuhG0Vjhdgm&cce=2&category=acrcp_v1_32&sig=AOD64_3JmPo4YoMsLaTbhbhzgp2Pb_5qnA&q=&nis=4&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Qh78CegQIGRAB&adurl=
+                    - img "Image from igp.com" [ref=e444]
+                  - generic [ref=e445]:
+                    - link "Same Day Flower Delivery IGP.com https://www.igp.com" [ref=e446] [cursor=pointer]:
+                      - /url: https://www.igp.com/flowers
+                      - heading "Same Day Flower Delivery" [level=3] [ref=e448]
+                      - generic [ref=e454]:
+                        - generic [ref=e456]: IGP.com
+                        - generic [ref=e457]: https://www.igp.com
+                    - button "Why this ad?" [ref=e460] [cursor=pointer]:
+                      - img [ref=e462]
+                  - generic [ref=e467]:
+                    - text: Send
+                    - emphasis [ref=e468]: Flowers
+                    - text: to Across India — Roses, Lilies, Carnations, Orchids, Gerberas and More. Starting at ₹ 395.
+                    - emphasis [ref=e469]: Order
+                    - text: Now. Online...
+              - button "Hide sponsored results" [ref=e471] [cursor=pointer]:
+                - separator [ref=e472]
+                - generic [ref=e473]:
+                  - generic [ref=e474]: Hide sponsored results
+                  - img [ref=e476]
+      - generic [ref=e481]:
+        - generic [ref=e485]:
+          - heading "Web results" [level=2] [ref=e486]
+          - generic [ref=e487]:
+            - generic [ref=e490]:
+              - link "Flower Delivery in Hyderabad | Premium Florist Shop ... Farmerr https://farmerr.in › collections › flowers-hyderabad" [ref=e492] [cursor=pointer]:
+                - /url: https://farmerr.in/collections/flowers-hyderabad
+                - heading "Flower Delivery in Hyderabad | Premium Florist Shop ..." [level=3] [ref=e493]
+                - generic [ref=e498]:
+                  - generic [ref=e500]: Farmerr
+                  - generic [ref=e502]: https://farmerr.in › collections › flowers-hyderabad
+              - button "About this result" [ref=e503] [cursor=pointer]:
+                - img [ref=e506]
+            - link "buy flower images from farmerr.in" [ref=e510] [cursor=pointer]:
+              - /url: https://farmerr.in/collections/flowers-hyderabad
+            - generic [ref=e526]:
+              - emphasis [ref=e527]: Order online fresh premium flowers in Hyderabad with Farmerr
+              - text: . Enjoy same-day luxury flower bouquets from a trusted florist shop across Hyderabad. Order now!
+            - generic [ref=e529]:
+              - generic [ref=e530]: ₹500 to ₹4,999
+              - text: ·
+              - generic [ref=e531]: Free delivery
+            - generic [ref=e534]:
+              - img [ref=e536]
+              - generic [ref=e538]: Film Nagar · Closed
+        - generic [ref=e548]:
+          - generic [ref=e556]:
+            - generic [ref=e558]:
+              - heading "Popular products" [level=2] [ref=e559]
+              - button "About this result" [ref=e560] [cursor=pointer]:
+                - img [ref=e563]
+            - generic [ref=e568]:
+              - list [ref=e572]:
+                - listitem [ref=e573]:
+                  - 'button "FNP 4 Stems Yellow + Pink Joy & Grace Rose Bouquet, 1 pc. Current price: ₹30. bigbasket.com." [ref=e577]':
+                    - generic [ref=e587] [cursor=pointer]:
+                      - img [ref=e592]
+                      - generic [ref=e593]: FNP 4 Stems Yellow + Pink Joy & Grace Rose Bouquet, 1 pc
+                      - 'group "Current price: ₹30." [ref=e594]':
+                        - generic [ref=e597]: ₹30
+                      - generic [ref=e599]:
+                        - img "bigbasket.com" [ref=e605]
+                        - generic [ref=e606]: bigbasket.com
+                - listitem [ref=e607]:
+                  - 'button "Charming 4 Mixed Roses. Current price: ₹229. Zepto. Free 10 min delivery." [ref=e611]':
+                    - generic [ref=e621] [cursor=pointer]:
+                      - img [ref=e626]
+                      - generic [ref=e627]: Charming 4 Mixed Roses
+                      - 'group "Current price: ₹229." [ref=e628]':
+                        - generic [ref=e631]: ₹229
+                      - generic [ref=e633]:
+                        - img "Zepto" [ref=e639]
+                        - generic [ref=e640]: Zepto
+                      - generic [ref=e642]: Free 10 min delivery
+                - listitem [ref=e643]:
+                  - 'button "Assorted Roses 100 g. Current price: ₹41. Zepto. Free 10 min delivery." [ref=e647]':
+                    - generic [ref=e657] [cursor=pointer]:
+                      - img [ref=e662]
+                      - generic [ref=e663]: Assorted Roses 100 g
+                      - 'group "Current price: ₹41." [ref=e664]':
+                        - generic [ref=e667]: ₹41
+                      - generic [ref=e669]:
+                        - img "Zepto" [ref=e675]
+                        - generic [ref=e676]: Zepto
+                      - generic [ref=e678]: Free 10 min delivery
+                - listitem [ref=e679]:
+                  - 'button "fresho! Gerbera Flowers - Pink, 1 pc. 24% OFF. Current price: ₹9.12. Was ₹12. bigbasket.com." [ref=e683]':
+                    - generic [ref=e693] [cursor=pointer]:
+                      - img [ref=e698]
+                      - generic [ref=e699]: fresho! Gerbera Flowers - Pink, 1 pc
+                      - 'group "Current price: ₹9.12. Was ₹12." [ref=e700]':
+                        - generic [ref=e702]:
+                          - generic [ref=e703]: ₹9.12
+                          - generic [ref=e704]: ₹12
+                      - generic [ref=e706]:
+                        - img "bigbasket.com" [ref=e712]
+                        - generic [ref=e713]: bigbasket.com
+                - listitem [ref=e714]:
+                  - 'button "IGP Pink Symphony Bouquet. Current price: ₹149. IGP.com. Free same-day delivery." [ref=e718]':
+                    - generic [ref=e728] [cursor=pointer]:
+                      - img [ref=e733]
+                      - generic [ref=e734]: IGP Pink Symphony Bouquet
+                      - 'group "Current price: ₹149." [ref=e735]':
+                        - generic [ref=e738]: ₹149
+                      - generic [ref=e740]:
+                        - img "IGP.com" [ref=e746]
+                        - generic [ref=e747]: IGP.com
+                      - generic [ref=e749]: Free same-day delivery
+                - listitem [ref=e750]:
+                  - 'button "FlowerAura Sunflower Bouquet. Current price: ₹399. FlowerAura. Free same-day delivery." [ref=e754]':
+                    - generic [ref=e764] [cursor=pointer]:
+                      - img [ref=e769]
+                      - generic [ref=e770]: FlowerAura Sunflower Bouquet
+                      - 'group "Current price: ₹399." [ref=e771]':
+                        - generic [ref=e774]: ₹399
+                      - generic [ref=e775]:
+                        - generic [ref=e776]:
+                          - img "FlowerAura" [ref=e782]
+                          - generic [ref=e783]: FlowerAura
+                        - generic [ref=e784]: "& more"
+                      - generic [ref=e786]: Free same-day delivery
+                - listitem [ref=e787]:
+                  - 'button "fresho! Flowers - Gerbera Orange, 1 pc. 24% OFF. Current price: ₹9.12. Was ₹12. bigbasket.com." [ref=e791]':
+                    - generic [ref=e801] [cursor=pointer]:
+                      - img [ref=e806]
+                      - generic [ref=e807]: fresho! Flowers - Gerbera Orange, 1 pc
+                      - 'group "Current price: ₹9.12. Was ₹12." [ref=e808]':
+                        - generic [ref=e810]:
+                          - generic [ref=e811]: ₹9.12
+                          - generic [ref=e812]: ₹12
+                      - generic [ref=e814]:
+                        - img "bigbasket.com" [ref=e820]
+                        - generic [ref=e821]: bigbasket.com
+                - listitem [ref=e822]:
+                  - 'button "FNP Mixed Brilliance Gerbera Flower Bouquet. Also nearby. Current price: ₹549. FNP. Free next-day delivery." [ref=e826]':
+                    - generic [ref=e836] [cursor=pointer]:
+                      - generic [ref=e837]:
+                        - img [ref=e841]
+                        - generic [ref=e845]:
+                          - img [ref=e847]
+                          - text: Also nearby
+                      - generic [ref=e850]: FNP Mixed Brilliance Gerbera Flower Bouquet
+                      - 'group "Current price: ₹549." [ref=e851]':
+                        - generic [ref=e854]: ₹549
+                      - generic [ref=e856]:
+                        - img "FNP" [ref=e862]
+                        - generic [ref=e863]: FNP
+                      - generic [ref=e865]: Free next-day delivery
+                - listitem [ref=e866]:
+                  - 'button "fresho! Flowers - Gerbera Red, 1 pc. 24% OFF. Current price: ₹9.12. Was ₹12. bigbasket.com." [ref=e870]':
+                    - generic [ref=e880] [cursor=pointer]:
+                      - img [ref=e885]
+                      - generic [ref=e886]: fresho! Flowers - Gerbera Red, 1 pc
+                      - 'group "Current price: ₹9.12. Was ₹12." [ref=e887]':
+                        - generic [ref=e889]:
+                          - generic [ref=e890]: ₹9.12
+                          - generic [ref=e891]: ₹12
+                      - generic [ref=e893]:
+                        - img "bigbasket.com" [ref=e899]
+                        - generic [ref=e900]: bigbasket.com
+                - listitem [ref=e901]:
+                  - 'button "Assorted Roses Combo 0 g. Current price: ₹117. Zepto. Free 10 min delivery." [ref=e905]':
+                    - generic [ref=e915] [cursor=pointer]:
+                      - img [ref=e920]
+                      - generic [ref=e921]: Assorted Roses Combo 0 g
+                      - 'group "Current price: ₹117." [ref=e922]':
+                        - generic [ref=e925]: ₹117
+                      - generic [ref=e927]:
+                        - img "Zepto" [ref=e933]
+                        - generic [ref=e934]: Zepto
+                      - generic [ref=e936]: Free 10 min delivery
+              - button [ref=e938] [cursor=pointer]:
+                - img [ref=e941]
+          - generic [ref=e953]:
+            - heading "Orchid Fresh Flowers ." [level=3] [ref=e954]:
+              - button "Orchid Fresh Flowers ." [expanded] [ref=e955] [cursor=pointer]:
+                - generic [ref=e960]:
+                  - generic [ref=e963]: Orchid Fresh Flowers
+                  - generic: .
+                - img [ref=e966]
+            - generic [ref=e973]:
+              - generic [ref=e976]:
+                - list "Orchid Fresh Flowers" [ref=e977]:
+                  - listitem [ref=e978]:
+                    - 'button "FlowerAura Purple Orchid Best Seller Flower Bouquet. Current price: ₹795. FlowerAura & more. Free same-day delivery." [ref=e982]':
+                      - generic [ref=e992] [cursor=pointer]:
+                        - img [ref=e997]
+                        - generic [ref=e998]: FlowerAura Purple Orchid Best Seller Flower Bouquet
+                        - 'group "Current price: ₹795." [ref=e999]':
+                          - generic [ref=e1002]: ₹795
+                        - generic [ref=e1003]:
+                          - generic [ref=e1004]:
+                            - img "FlowerAura" [ref=e1010]
+                            - generic [ref=e1011]: FlowerAura
+                          - generic [ref=e1012]: "& more"
+                        - generic [ref=e1014]: Free same-day delivery
+                  - listitem [ref=e1015]:
+                    - 'button "FNP Enchanting Purple Orchids Bouquet. Current price: ₹949. FNP. Free next-day delivery." [ref=e1019]':
+                      - generic [ref=e1029] [cursor=pointer]:
+                        - img [ref=e1034]
+                        - generic [ref=e1035]: FNP Enchanting Purple Orchids Bouquet
+                        - 'group "Current price: ₹949." [ref=e1036]':
+                          - generic [ref=e1039]: ₹949
+                        - generic [ref=e1041]:
+                          - img "FNP" [ref=e1047]
+                          - generic [ref=e1048]: FNP
+                        - generic [ref=e1050]: Free next-day delivery
+                  - listitem [ref=e1051]:
+                    - 'button "FlowerAura Premium Orchid Bouquet. Current price: ₹595. FlowerAura. Free same-day delivery." [ref=e1055]':
+                      - generic [ref=e1065] [cursor=pointer]:
+                        - img [ref=e1070]
+                        - generic [ref=e1071]: FlowerAura Premium Orchid Bouquet
+                        - 'group "Current price: ₹595." [ref=e1072]':
+                          - generic [ref=e1075]: ₹595
+                        - generic [ref=e1077]:
+                          - img "FlowerAura" [ref=e1083]
+                          - generic [ref=e1084]: FlowerAura
+                        - generic [ref=e1086]: Free same-day delivery
+                  - listitem [ref=e1087]:
+                    - 'button "FlowerAura Purple Orchids & Pink Roses Bouquet. Current price: ₹1,476. 30% off maximum retail price: ₹2,099. Myntra. Free delivery by Thu." [ref=e1091]':
+                      - generic [ref=e1101] [cursor=pointer]:
+                        - img [ref=e1106]
+                        - generic [ref=e1107]: FlowerAura Purple Orchids & Pink Roses Bouquet
+                        - 'group "Current price: ₹1,476. 30% off maximum retail price: ₹2,099." [ref=e1108]':
+                          - generic [ref=e1110]:
+                            - generic [ref=e1111]: ₹1,476
+                            - generic [ref=e1112]: 30% off₹2,099
+                        - generic [ref=e1113]:
+                          - generic [ref=e1114]:
+                            - img "Myntra" [ref=e1120]
+                            - generic [ref=e1121]: Myntra
+                          - generic [ref=e1122]: "& more"
+                        - generic [ref=e1124]: Free delivery by Thu
+                  - listitem [ref=e1125]:
+                    - 'button "FNP 10 Purple Orchids Bouquet. 12% OFF. Current price: ₹1,449. Was ₹1,649. FNP. Free next-day delivery." [ref=e1129]':
+                      - generic [ref=e1139] [cursor=pointer]:
+                        - img [ref=e1144]
+                        - generic [ref=e1145]: FNP 10 Purple Orchids Bouquet
+                        - 'group "Current price: ₹1,449. Was ₹1,649." [ref=e1146]':
+                          - generic [ref=e1148]:
+                            - generic [ref=e1149]: ₹1,449
+                            - generic [ref=e1150]: ₹1,649
+                        - generic [ref=e1152]:
+                          - img "FNP" [ref=e1158]
+                          - generic [ref=e1159]: FNP
+                        - generic [ref=e1161]: Free next-day delivery
+                  - listitem [ref=e1162]:
+                    - 'button "FlowerAura Anniversary Orchid & Pink Rose Flower Arrangement. Current price: ₹1,395. FlowerAura. Free same-day delivery." [ref=e1166]':
+                      - generic [ref=e1176] [cursor=pointer]:
+                        - img [ref=e1181]
+                        - generic [ref=e1182]: FlowerAura Anniversary Orchid & Pink Rose Flower Arrangement
+                        - 'group "Current price: ₹1,395." [ref=e1183]':
+                          - generic [ref=e1186]: ₹1,395
+                        - generic [ref=e1188]:
+                          - img "FlowerAura" [ref=e1194]
+                          - generic [ref=e1195]: FlowerAura
+                        - generic [ref=e1197]: Free same-day delivery
+                  - listitem [ref=e1198]:
+                    - 'button "FNP Rosy Orchid Celebration Bouquet. Current price: ₹899. FNP. Free next-day delivery." [ref=e1202]':
+                      - generic [ref=e1212] [cursor=pointer]:
+                        - img [ref=e1217]
+                        - generic [ref=e1218]: FNP Rosy Orchid Celebration Bouquet
+                        - 'group "Current price: ₹899." [ref=e1219]':
+                          - generic [ref=e1222]: ₹899
+                        - generic [ref=e1224]:
+                          - img "FNP" [ref=e1230]
+                          - generic [ref=e1231]: FNP
+                        - generic [ref=e1233]: Free next-day delivery
+                  - listitem [ref=e1234]:
+                    - 'button "Tranquil Orchid and Greenery Gift. Current price: ₹1,799. FNP & more. Free next-day delivery." [ref=e1238]':
+                      - generic [ref=e1248] [cursor=pointer]:
+                        - img [ref=e1253]
+                        - generic [ref=e1254]: Tranquil Orchid and Greenery Gift
+                        - 'group "Current price: ₹1,799." [ref=e1255]':
+                          - generic [ref=e1258]: ₹1,799
+                        - generic [ref=e1259]:
+                          - generic [ref=e1260]:
+                            - img "FNP" [ref=e1266]
+                            - generic [ref=e1267]: FNP
+                          - generic [ref=e1268]: "& more"
+                        - generic [ref=e1270]: Free next-day delivery
+                  - listitem [ref=e1271]:
+                    - 'button "IGP Royal Elegance Orchid Arrangement. Current price: ₹1,745. IGP.com. Free same-day delivery." [ref=e1275]':
+                      - generic [ref=e1285] [cursor=pointer]:
+                        - img [ref=e1290]
+                        - generic [ref=e1291]: IGP Royal Elegance Orchid Arrangement
+                        - 'group "Current price: ₹1,745." [ref=e1292]':
+                          - generic [ref=e1295]: ₹1,745
+                        - generic [ref=e1297]:
+                          - img "IGP.com" [ref=e1303]
+                          - generic [ref=e1304]: IGP.com
+                        - generic [ref=e1306]: Free same-day delivery
+                  - listitem [ref=e1307]:
+                    - 'button "Royal Purple Orchid Elegance. 10% OFF. Current price: ₹899. Was ₹999. FNP. Free next-day delivery." [ref=e1311]':
+                      - generic [ref=e1321] [cursor=pointer]:
+                        - img [ref=e1326]
+                        - generic [ref=e1327]: Royal Purple Orchid Elegance
+                        - 'group "Current price: ₹899. Was ₹999." [ref=e1328]':
+                          - generic [ref=e1330]:
+                            - generic [ref=e1331]: ₹899
+                            - generic [ref=e1332]: ₹999
+                        - generic [ref=e1333]:
+                          - generic [ref=e1334]:
+                            - img "FNP" [ref=e1340]
+                            - generic [ref=e1341]: FNP
+                          - generic [ref=e1342]: "& more"
+                        - generic [ref=e1344]: Free next-day delivery
+                - link "See more" [ref=e1346] [cursor=pointer]:
+                  - /url: /search?sca_esv=a26c9df86d20384d&q=orchid+buy+flower&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QkOQKKAB6BAgjEAg
+                  - generic [ref=e1348]:
+                    - img [ref=e1351]
+                    - generic [ref=e1353]: See more
+              - button [ref=e1354] [cursor=pointer]:
+                - img [ref=e1357]
+          - heading "Fresh Cut Flower Arrangements ." [level=3] [ref=e1370]:
+            - button "Fresh Cut Flower Arrangements ." [ref=e1371] [cursor=pointer]:
+              - generic [ref=e1377]:
+                - generic [ref=e1380]: Fresh Cut Flower Arrangements
+                - generic: .
+              - img [ref=e1383]
+          - heading "Rose Fresh Flowers ." [level=3] [ref=e1396]:
+            - button "Rose Fresh Flowers ." [ref=e1397] [cursor=pointer]:
+              - generic [ref=e1403]:
+                - generic [ref=e1406]: Rose Fresh Flowers
+                - generic: .
+              - img [ref=e1409]
+        - generic [ref=e1414]:
+          - heading "Web results" [level=2] [ref=e1415]
+          - generic [ref=e1416]:
+            - generic [ref=e1419]:
+              - link "Send Flowers in Hyderabad with Same Day Delivery ... FNP https://www.fnp.com › flowers › hyderabad-lp" [ref=e1421] [cursor=pointer]:
+                - /url: https://www.fnp.com/flowers/hyderabad-lp
+                - heading "Send Flowers in Hyderabad with Same Day Delivery ..." [level=3] [ref=e1422]
+                - generic [ref=e1427]:
+                  - generic [ref=e1429]: FNP
+                  - generic [ref=e1431]: https://www.fnp.com › flowers › hyderabad-lp
+              - button "About this result" [ref=e1432] [cursor=pointer]:
+                - img [ref=e1435]
+            - generic [ref=e1439]:
+              - emphasis [ref=e1440]: Choose from a stunning collection of flowers for delivery in Hyderabad
+              - text: . FNP ensures your heartfelt gesture reaches loved ones promptly with same-day ...
+            - link "buy flower from www.fnp.com" [ref=e1443] [cursor=pointer]:
+              - /url: https://www.fnp.com/flowers/hyderabad-lp
+              - img "buy flower from www.fnp.com" [ref=e1445]
+            - generic [ref=e1447]:
+              - generic [ref=e1449]:
+                - img "Rated 4.7 out of 5," [ref=e1451]:
+                  - text: "4.7"
+                  - img [ref=e1452]
+                - generic [ref=e1455]:
+                  - text: store rating (
+                  - link "80 user reviews" [ref=e1456] [cursor=pointer]:
+                    - /url: https://www.google.com/m/storepages?q=fnp.com&c=IN&hl=en-IN
+                    - text: "80"
+                  - text: )
+              - text: ·
+              - generic [ref=e1457]: ₹349 to ₹2,499
+              - text: ·
+              - generic [ref=e1458]: Free delivery
+              - text: ·
+              - generic [ref=e1459]: Items up to 20% off
+            - generic [ref=e1462]:
+              - img [ref=e1464]
+              - generic [ref=e1466]: Arunodaya Colony, Madhapur · Closed
+        - generic [ref=e1470]:
+          - heading "Local results" [level=2] [ref=e1471]
+          - generic [ref=e1472]:
+            - heading "Places" [level=2] [ref=e1476]
+            - generic [ref=e1477]:
+              - heading "Map" [level=3] [ref=e1478]
+              - link "Map" [ref=e1481] [cursor=pointer]:
+                - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&udm=1&lsack=Hk8TapelG6jf2roPzo69-Ag&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QtgN6BQiWARAD
+            - generic [ref=e1485]:
+              - button "BrightDay Florals - Exotic Flower Bouquets; Cakes & Luxe Gift Hampers in Nanakaramguda, Khajaguda, Kokapet & Narsingi Rated 4.9 out of 5, 261 user reviews · Florist Street No.1, Ground Floor, Cycle Track Opp Narsingi - Nanakramguda Road, Muppas Rd, next to Mithra Pharmacy · 093935 00500 Closed · Opens 8 am In-store pick-up· Delivery" [ref=e1490]:
+                - generic [ref=e1494] [cursor=pointer]:
+                  - heading "BrightDay Florals - Exotic Flower Bouquets; Cakes & Luxe Gift Hampers in Nanakaramguda, Khajaguda, Kokapet & Narsingi" [level=3] [ref=e1495]:
+                    - generic [ref=e1496]: BrightDay Florals - Exotic Flower Bouquets; Cakes & Luxe Gift Hampers in Nanakaramguda, Khajaguda, Kokapet & Narsingi
+                  - generic [ref=e1497]:
+                    - img "Rated 4.9 out of 5, 261 user reviews" [ref=e1499]:
+                      - text: "4.9"
+                      - img [ref=e1500]
+                      - text: (261)
+                    - text: · Florist
+                  - generic [ref=e1503]: Street No.1, Ground Floor, Cycle Track Opp Narsingi - Nanakramguda Road, Muppas Rd, next to Mithra Pharmacy · 093935 00500
+                  - generic [ref=e1505]: Closed · Opens 8 am
+                  - generic [ref=e1507]:
+                    - generic [ref=e1508]:
+                      - text: In-store pick-up
+                      - generic [ref=e1509]: ·
+                    - generic [ref=e1510]: Delivery
+              - button "Shah flower decrotaion Rated 4.4 out of 5, 59 user reviews · Florist Dargah Hussain Shah Wali, Rt, Near, Darga X Rode · 077949 35237 Open 24 hours Delivery" [ref=e1518]:
+                - generic [ref=e1522] [cursor=pointer]:
+                  - heading "Shah flower decrotaion" [level=3] [ref=e1523]:
+                    - generic [ref=e1524]: Shah flower decrotaion
+                  - generic [ref=e1525]:
+                    - img "Rated 4.4 out of 5, 59 user reviews" [ref=e1527]:
+                      - text: "4.4"
+                      - img [ref=e1528]
+                      - text: (59)
+                    - text: · Florist
+                  - generic [ref=e1531]: Dargah Hussain Shah Wali, Rt, Near, Darga X Rode · 077949 35237
+                  - generic [ref=e1533]: Open 24 hours
+                  - generic [ref=e1536]: Delivery
+            - heading "More places" [level=3] [ref=e1541]:
+              - link "More places" [ref=e1543] [cursor=pointer]:
+                - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&udm=1&lsack=Hk8TapelG6jf2roPzo69-Ag&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QjGp6BQiaARAB
+                - separator [ref=e1544]
+                - generic [ref=e1545]:
+                  - generic [ref=e1546]: More places
+                  - img [ref=e1548]
+        - generic [ref=e1553]:
+          - heading "Web results" [level=2] [ref=e1554]
+          - generic [ref=e1555]:
+            - generic [ref=e1558]:
+              - link "Flower Delivery in Hyderabad | Up to 30% OFF & Same Day Floweraura https://www.floweraura.com › Flowers" [ref=e1560] [cursor=pointer]:
+                - /url: https://www.floweraura.com/sendflowers/hyderabad?srsltid=AfmBOooKQbn8vehmrLnURMxKG4VL2jjlgajMb9cCDwuVPe3-MIwffRUp
+                - heading "Flower Delivery in Hyderabad | Up to 30% OFF & Same Day" [level=3] [ref=e1561]
+                - generic [ref=e1566]:
+                  - generic [ref=e1568]: Floweraura
+                  - generic [ref=e1570]: https://www.floweraura.com › Flowers
+              - button "About this result" [ref=e1571] [cursor=pointer]:
+                - img [ref=e1574]
+            - generic [ref=e1578]:
+              - text: "FlowerAura Hyderabad:"
+              - emphasis [ref=e1579]: Get fresh flowers delivered same-day & at midnight
+              - text: "! Enjoy free shipping on all orders. Your trusted local flower shop in Hyderabad."
+            - link "buy flower from www.floweraura.com" [ref=e1582] [cursor=pointer]:
+              - /url: https://www.floweraura.com/sendflowers/hyderabad?srsltid=AfmBOooKQbn8vehmrLnURMxKG4VL2jjlgajMb9cCDwuVPe3-MIwffRUp
+              - img "buy flower from www.floweraura.com" [ref=e1584]
+            - generic [ref=e1586]:
+              - generic [ref=e1587]: ₹399 to ₹2,195
+              - text: ·
+              - img "Rated 4.9 out of 5, (3,851) user reviews" [ref=e1591]:
+                - text: "4.9"
+                - img [ref=e1592]
+                - text: (3,851)
+              - text: ·
+              - generic [ref=e1595]: Free delivery
+        - generic [ref=e1599]:
+          - generic [ref=e1600]:
+            - heading "Sponsored result" [level=2] [ref=e1607]
+            - generic [ref=e1608]:
+              - generic [ref=e1620]:
+                - generic [ref=e1621]:
+                  - link "Flowers Delivery in 1 Hour FNP https://www.fnp.com" [ref=e1622] [cursor=pointer]:
+                    - /url: https://www.fnp.com/flowers-lp
+                    - heading "Flowers Delivery in 1 Hour" [level=3] [ref=e1623]
+                    - generic [ref=e1629]:
+                      - generic [ref=e1631]: FNP
+                      - generic [ref=e1632]: https://www.fnp.com
+                  - button "Why this ad?" [ref=e1635] [cursor=pointer]:
+                    - img [ref=e1637]
+                - generic [ref=e1642]:
+                  - text: Best
+                  - emphasis [ref=e1643]: Flowers
+                  - text: to
+                  - emphasis [ref=e1644]: Buy
+                  - text: Delivered — Pair
+                  - emphasis [ref=e1645]: flowers
+                  - text: with cakes, chocolates, or personalized gifts for a perfect combo surprise. Send fresh
+                  - emphasis [ref=e1646]: flowers
+                  - text: "& heartfelt wishes, delivered with love & care. India's No.1 Gifting Site. Same Day Delivery."
+                - generic [ref=e1647]:
+                  - generic [ref=e1648]:
+                    - link "Birthday Gifts" [ref=e1649] [cursor=pointer]:
+                      - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwiUmY-Q0tKUAxX9XA8CHassC1MYACICCAIQARoCdGI&co=1&ase=2&gclid=EAIaIQobChMIlJmPkNLSlAMV_VwPAh2rLAtTEAMYASABEgK9i_D_BwE&cid=CAASuwHkaC3c5K6h4wFsKAKAwGRbkwID2656eDHmk28ZA9fLCKj1xvd_QKSFAZ4Yx2cJ5XRkdj9buQqRdQpzJnTNcIn-zw6Pxct9XO0sfASZvamuWNEfXNTLoP_j70XmG7J_q4rxKsw2cXXDTw3XAxGAl7i4fvU1fY4MjwFaIn6-YkRvH6rl9PFJiBpzMzvKtuyFzTnnr1DBC3hvuLEKPrPCD4hQQ4t7KsIZBbKfDTq6ZuuklgxzWbuhG0Vjhdgm&cce=2&category=acrcp_v1_32&sig=AOD64_00Rpi1XMGPVfQpga-mVqcG69Fnlw&nis=4&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QhacBegQITBAP&adurl=
+                    - generic [ref=e1650]:
+                      - text: "-"
+                      - generic [ref=e1651]: ₹399.00
+                    - text: "- Photo Cakes & Flowers"
+                  - generic [ref=e1652]: ·
+                  - button "More" [ref=e1654] [cursor=pointer]: More
+              - button "Hide sponsored result" [ref=e1657] [cursor=pointer]:
+                - separator [ref=e1658]
+                - generic [ref=e1659]:
+                  - generic [ref=e1660]: Hide sponsored result
+                  - img [ref=e1662]
+          - generic [ref=e1666]:
+            - generic [ref=e1667]:
+              - heading "Find related products & services" [level=2] [ref=e1668]
+              - button "About the source" [ref=e1671] [cursor=pointer]:
+                - img [ref=e1672]
+            - list [ref=e1676]:
+              - listitem [ref=e1677]:
+                - link "Best flower delivery in Hyderabad" [ref=e1678] [cursor=pointer]:
+                  - /url: http://www.google.com/search?q=Best+flower+delivery+in+Hyderabad&mrq=1&mrqri=0&mrqei=Hk8TapelG6jf2roPzo69-Ag&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QyO0OKAB6BAhLEAU
+                  - generic [ref=e1679]: Best flower delivery in Hyderabad
+                  - img [ref=e1682]
+              - listitem [ref=e1684]:
+                - link "Flowers delivery Hyderabad same day" [ref=e1685] [cursor=pointer]:
+                  - /url: http://www.google.com/search?q=Flowers+delivery+Hyderabad+same+day&mrq=1&mrqri=1&mrqei=Hk8TapelG6jf2roPzo69-Ag&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QyO0OKAF6BAhLEAY
+                  - generic [ref=e1686]: Flowers delivery Hyderabad same day
+                  - img [ref=e1689]
+              - listitem [ref=e1691]:
+                - link "Cake and flowers delivery Hyderabad" [ref=e1692] [cursor=pointer]:
+                  - /url: http://www.google.com/search?q=Cake+and+flowers+delivery+Hyderabad&mrq=1&mrqri=2&mrqei=Hk8TapelG6jf2roPzo69-Ag&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QyO0OKAJ6BAhLEAc
+                  - generic [ref=e1693]: Cake and flowers delivery Hyderabad
+                  - img [ref=e1696]
+              - listitem [ref=e1698]:
+                - link "Interflora Hyderabad" [ref=e1699] [cursor=pointer]:
+                  - /url: http://www.google.com/search?q=Interflora+Hyderabad&mrq=1&mrqri=3&mrqei=Hk8TapelG6jf2roPzo69-Ag&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QyO0OKAN6BAhLEAg
+                  - generic [ref=e1700]: Interflora Hyderabad
+                  - img [ref=e1703]
+              - listitem [ref=e1705]:
+                - link "Same day flowers" [ref=e1706] [cursor=pointer]:
+                  - /url: http://www.google.com/search?q=Same+day+flowers&mrq=1&mrqri=4&mrqei=Hk8TapelG6jf2roPzo69-Ag&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QyO0OKAR6BAhLEAk
+                  - generic [ref=e1707]: Same day flowers
+                  - img [ref=e1710]
+              - listitem [ref=e1712]:
+                - link "Flower shop Gachibowli" [ref=e1713] [cursor=pointer]:
+                  - /url: http://www.google.com/search?q=Flower+shop+Gachibowli&mrq=1&mrqri=5&mrqei=Hk8TapelG6jf2roPzo69-Ag&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QyO0OKAV6BAhLEAo
+                  - generic [ref=e1714]: Flower shop Gachibowli
+                  - img [ref=e1717]
+            - generic [ref=e1721]: These searches help you find relevant offers from advertisers
+        - generic [ref=e1726]:
+          - generic [ref=e1729]:
+            - 'link "#1 Florist: Send Flowers to Hyderabad with Same Day Delivery Hyderabad Flower Gifts https://hyderabadflowergifts.com" [ref=e1731] [cursor=pointer]':
+              - /url: https://hyderabadflowergifts.com/
+              - 'heading "#1 Florist: Send Flowers to Hyderabad with Same Day Delivery" [level=3] [ref=e1732]'
+              - generic [ref=e1737]:
+                - generic [ref=e1739]: Hyderabad Flower Gifts
+                - generic [ref=e1741]: https://hyderabadflowergifts.com
+            - button "About this result" [ref=e1742] [cursor=pointer]:
+              - img [ref=e1745]
+          - link "buy flower images from hyderabadflowergifts.com" [ref=e1749] [cursor=pointer]:
+            - /url: https://hyderabadflowergifts.com/
+          - generic [ref=e1765]:
+            - text: Send
+            - emphasis [ref=e1766]: flowers
+            - text: ", cakes, and gifts to your loved ones in Hyderabad. Enjoy fast same-day delivery with premium quality and beautiful arrangements."
+        - generic [ref=e1771]:
+          - generic [ref=e1774]:
+            - link "Hyderabad Flower Delivery | Same-Day Online BloomsFlora https://www.bloomsflora.com › hyderabad › flowers" [ref=e1776] [cursor=pointer]:
+              - /url: https://www.bloomsflora.com/in/hyderabad/flowers?srsltid=AfmBOoonnFhaiOAFkmg_00q-2pZFiI0vIt3vy9RofZhhTNOFfWw8e7XB
+              - heading "Hyderabad Flower Delivery | Same-Day Online" [level=3] [ref=e1777]
+              - generic [ref=e1782]:
+                - generic [ref=e1784]: BloomsFlora
+                - generic [ref=e1786]: https://www.bloomsflora.com › hyderabad › flowers
+            - button "About this result" [ref=e1787] [cursor=pointer]:
+              - img [ref=e1790]
+          - link "buy flower images from www.bloomsflora.com" [ref=e1794] [cursor=pointer]:
+            - /url: https://www.bloomsflora.com/in/hyderabad/flowers?srsltid=AfmBOoonnFhaiOAFkmg_00q-2pZFiI0vIt3vy9RofZhhTNOFfWw8e7XB
+          - generic [ref=e1810]:
+            - emphasis [ref=e1811]: Order flowers online in Hyderabad
+            - text: . Same-day delivery to Hitech City, Gachibowli, Banjara Hills, Madhapur, Kondapur & all areas. Fresh bouquets from Rs.499.
+          - generic [ref=e1813]:
+            - generic [ref=e1815]:
+              - img "Rated 4.0 out of 5," [ref=e1817]:
+                - text: "4.0"
+                - img [ref=e1818]
+              - generic [ref=e1821]:
+                - text: store rating (
+                - link "37 user reviews" [ref=e1822] [cursor=pointer]:
+                  - /url: https://www.google.com/m/storepages?q=bloomsflora.com&c=IN&hl=en-IN
+                  - text: "37"
+                - text: )
+            - text: ·
+            - generic [ref=e1823]: ₹659 to ₹4,505
+            - text: ·
+            - generic [ref=e1824]: ₹99 delivery
+        - generic [ref=e1829]:
+          - generic [ref=e1832]:
+            - 'link "Flowers to Hyderabad in 2 Hrs, Free Delivery, #1 Florist Hyderabadonlineflorists.com https://www.hyderabadonlineflorists.com" [ref=e1834] [cursor=pointer]':
+              - /url: https://www.hyderabadonlineflorists.com/
+              - 'heading "Flowers to Hyderabad in 2 Hrs, Free Delivery, #1 Florist" [level=3] [ref=e1835]'
+              - generic [ref=e1840]:
+                - generic [ref=e1842]: Hyderabadonlineflorists.com
+                - generic [ref=e1844]: https://www.hyderabadonlineflorists.com
+            - button "About this result" [ref=e1845] [cursor=pointer]:
+              - img [ref=e1848]
+          - generic [ref=e1852]:
+            - emphasis [ref=e1853]: Flowers to Hyderabad Same Day at INR 349
+            - text: /-, Free Delivery in 2 Hrs by Hyderabad Online Florists. Personalize with cakes, chocolate, balloons, teddy; ...
+        - generic [ref=e1858]:
+          - generic [ref=e1861]:
+            - link "Flower Delivery in Hyderabad - Interflora interflora.in https://www.interflora.in › flowers-to-hyderabad" [ref=e1863] [cursor=pointer]:
+              - /url: https://www.interflora.in/flowers-to-hyderabad?srsltid=AfmBOoqEYDOiewFsOWtRYyYXDGQZlMDFI5l16AqhT1rQ_ZfegAJ09Bfs
+              - heading "Flower Delivery in Hyderabad - Interflora" [level=3] [ref=e1864]
+              - generic [ref=e1869]:
+                - generic [ref=e1871]: interflora.in
+                - generic [ref=e1873]: https://www.interflora.in › flowers-to-hyderabad
+            - button "About this result" [ref=e1874] [cursor=pointer]:
+              - img [ref=e1877]
+          - link "buy flower images from www.interflora.in" [ref=e1881] [cursor=pointer]:
+            - /url: https://www.interflora.in/flowers-to-hyderabad?srsltid=AfmBOoqEYDOiewFsOWtRYyYXDGQZlMDFI5l16AqhT1rQ_ZfegAJ09Bfs
+          - generic [ref=e1896]:
+            - generic [ref=e1897]:
+              - emphasis [ref=e1898]: Order & Get premium Flowers delivery in within no time in Hyderabad
+              - text: . World's largest network for premium flowers, flower bouquets and rare flower arrangements.
+            - link "Read more" [ref=e1899] [cursor=pointer]:
+              - /url: https://www.interflora.in/flowers-to-hyderabad?srsltid=AfmBOoqEYDOiewFsOWtRYyYXDGQZlMDFI5l16AqhT1rQ_ZfegAJ09Bfs#:~:text=Show%20more
+          - generic [ref=e1901]:
+            - generic [ref=e1902]: ₹1,235 to ₹5,595
+            - text: ·
+            - img "Rated 4.8 out of 5, (13,642) user reviews" [ref=e1906]:
+              - text: "4.8"
+              - img [ref=e1907]
+              - text: (13,642)
+            - text: ·
+            - generic [ref=e1910]: Free delivery
+            - text: ·
+            - generic [ref=e1911]: 5-day returns
+        - generic [ref=e1916]:
+          - generic [ref=e1919]:
+            - link "Online Flower delivery in Hyderabad Flowera https://flowera.in › FLOWERS › hyderabad" [ref=e1921] [cursor=pointer]:
+              - /url: https://flowera.in/flower-delivery/hyderabad/?srsltid=AfmBOopjjg8Pw_T4eNTZ7M_nXO2ZLbD_w3rBfbNWPD7VSt0zkbmgU4nB
+              - heading "Online Flower delivery in Hyderabad" [level=3] [ref=e1922]
+              - generic [ref=e1927]:
+                - generic [ref=e1929]: Flowera
+                - generic [ref=e1931]: https://flowera.in › FLOWERS › hyderabad
+            - button "About this result" [ref=e1932] [cursor=pointer]:
+              - img [ref=e1935]
+          - link "buy flower images from flowera.in" [ref=e1939] [cursor=pointer]:
+            - /url: https://flowera.in/flower-delivery/hyderabad/?srsltid=AfmBOopjjg8Pw_T4eNTZ7M_nXO2ZLbD_w3rBfbNWPD7VSt0zkbmgU4nB
+          - generic [ref=e1955]:
+            - emphasis [ref=e1956]: Get Online Flower Delivery in Hyderabad by Flowera
+            - text: . 20% OFF Free delivery. Order flowers from the best florist in Hyderabad. Fresh, Lillies, Roses, Gerbera, ...
+          - img "Rated 4.6 out of 5, (7,350) user reviews" [ref=e1961]:
+            - text: "4.6"
+            - img [ref=e1962]
+            - text: (7,350)
+        - generic [ref=e1969]:
+          - generic [ref=e1972]:
+            - link "Online Flower Delivery In Hyderabad Fiorella India https://fiorellaindia.com › hyderabad" [ref=e1974] [cursor=pointer]:
+              - /url: https://fiorellaindia.com/hyderabad?srsltid=AfmBOoqyp3bQg5ZNBm4GeAhQGDRCpYkr3wLKyUFntJ_knpfiUlm2uacD
+              - heading "Online Flower Delivery In Hyderabad" [level=3] [ref=e1975]
+              - generic [ref=e1980]:
+                - generic [ref=e1982]: Fiorella India
+                - generic [ref=e1984]: https://fiorellaindia.com › hyderabad
+            - button "About this result" [ref=e1985] [cursor=pointer]:
+              - img [ref=e1988]
+          - link "buy flower images from fiorellaindia.com" [ref=e1992] [cursor=pointer]:
+            - /url: https://fiorellaindia.com/hyderabad?srsltid=AfmBOoqyp3bQg5ZNBm4GeAhQGDRCpYkr3wLKyUFntJ_knpfiUlm2uacD
+          - generic [ref=e2002]:
+            - generic [ref=e2003]: 16 Jun 2024 —
+            - generic [ref=e2004]:
+              - text: We invite you to discover our
+              - emphasis [ref=e2005]: online flower boutique
+              - text: ", where you can express your love and appreciation through the assemblage of our exquisite bouquets."
+            - link "Read more" [ref=e2006] [cursor=pointer]:
+              - /url: https://fiorellaindia.com/hyderabad?srsltid=AfmBOoqyp3bQg5ZNBm4GeAhQGDRCpYkr3wLKyUFntJ_knpfiUlm2uacD#:~:text=Our%20Collections
+        - generic [ref=e2021]:
+          - generic [ref=e2023]:
+            - heading "Deals" [level=2] [ref=e2024]
+            - button "About this result" [ref=e2025] [cursor=pointer]:
+              - img [ref=e2028]
+          - list [ref=e2032]:
+            - listitem [ref=e2034]:
+              - 'button "Low price. 10 Red Roses Bouquet for Mom Current price: ₹745. Usually ₹1,203. FlowerAura FlowerAura & more Free same-day delivery" [ref=e2037]':
+                - generic [ref=e2041] [cursor=pointer]:
+                  - generic [ref=e2046]:
+                    - generic [ref=e2048]:
+                      - img "Low price." [ref=e2049]:
+                        - generic [ref=e2051]: LOW PRICE
+                      - img [ref=e2054]
+                    - generic [ref=e2055]: 10 Red Roses Bouquet for Mom
+                    - 'group "Current price: ₹745. Usually ₹1,203." [ref=e2056]':
+                      - generic [ref=e2058]:
+                        - generic [ref=e2059]: ₹745
+                        - generic [ref=e2060]: Usually ₹1,203
+                    - generic [ref=e2061]:
+                      - generic [ref=e2062]:
+                        - img "FlowerAura" [ref=e2068]
+                        - generic [ref=e2069]: FlowerAura
+                      - generic [ref=e2070]: "& more"
+                    - generic [ref=e2072]: Free same-day delivery
+                  - button [ref=e2073]
+            - listitem [ref=e2075]:
+              - 'button "77% OFF. Set of 5 - Chrysanthemum White, Dahlia (Any Colour), Cuphea Pink, Gazania (Any Colour) & Periwinkle Pink in 4 Inch Nursery Pot Current price: ₹89. Was ₹389. Urvann Urvann Free next-day delivery" [ref=e2078]':
+                - generic [ref=e2082] [cursor=pointer]:
+                  - generic [ref=e2087]:
+                    - generic [ref=e2089]:
+                      - img "77% OFF." [ref=e2090]:
+                        - generic [ref=e2092]: 77% OFF
+                      - img [ref=e2095]
+                    - generic [ref=e2096]: Set of 5 - Chrysanthemum White, Dahlia (Any Colour), Cuphea Pink, Gazania (Any Colour) & Periwinkle Pink in 4 Inch Nursery Pot
+                    - 'group "Current price: ₹89. Was ₹389." [ref=e2097]':
+                      - generic [ref=e2099]:
+                        - generic [ref=e2100]: ₹89
+                        - generic [ref=e2101]: Was ₹389
+                    - generic [ref=e2103]:
+                      - img "Urvann" [ref=e2109]
+                      - generic [ref=e2110]: Urvann
+                    - generic [ref=e2112]: Free next-day delivery
+                  - button [ref=e2113]
+            - listitem [ref=e2115]:
+              - 'button "20% OFF. Fresh Flower Bouquet of 25 Yellow Roses in Cellophane wrapping || TFM (Bunch of 25) Current price: ₹999. Was ₹1,249. amazon.in amazon.in" [ref=e2118]':
+                - generic [ref=e2122] [cursor=pointer]:
+                  - generic [ref=e2127]:
+                    - generic [ref=e2129]:
+                      - img "20% OFF." [ref=e2130]:
+                        - generic [ref=e2132]: 20% OFF
+                      - img [ref=e2135]
+                    - generic [ref=e2136]: Fresh Flower Bouquet of 25 Yellow Roses in Cellophane wrapping || TFM (Bunch of 25)
+                    - 'group "Current price: ₹999. Was ₹1,249." [ref=e2137]':
+                      - generic [ref=e2139]:
+                        - generic [ref=e2140]: ₹999
+                        - generic [ref=e2141]: Was ₹1,249
+                    - generic [ref=e2143]:
+                      - img "amazon.in" [ref=e2149]
+                      - generic [ref=e2150]: amazon.in
+                  - button [ref=e2151]
+            - listitem [ref=e2153]:
+              - 'button "Low price. Breathtaking White Roses Bouquet Current price: ₹450. Usually ₹729. FlowerAura FlowerAura & more Free same-day delivery" [ref=e2156]':
+                - generic [ref=e2160] [cursor=pointer]:
+                  - generic [ref=e2165]:
+                    - generic [ref=e2167]:
+                      - img "Low price." [ref=e2168]:
+                        - generic [ref=e2170]: LOW PRICE
+                      - img [ref=e2173]
+                    - generic [ref=e2174]: Breathtaking White Roses Bouquet
+                    - 'group "Current price: ₹450. Usually ₹729." [ref=e2175]':
+                      - generic [ref=e2177]:
+                        - generic [ref=e2178]: ₹450
+                        - generic [ref=e2179]: Usually ₹729
+                    - generic [ref=e2180]:
+                      - generic [ref=e2181]:
+                        - img "FlowerAura" [ref=e2187]
+                        - generic [ref=e2188]: FlowerAura
+                      - generic [ref=e2189]: "& more"
+                    - generic [ref=e2191]: Free same-day delivery
+                  - button [ref=e2192]
+            - listitem [ref=e2194]:
+              - 'button "Low price. IGP Oriental Delight Grand Bouquet Current price: ₹5,595. Usually ₹6,345. IGP.com IGP.com Free same-day delivery" [ref=e2197]':
+                - generic [ref=e2201] [cursor=pointer]:
+                  - generic [ref=e2206]:
+                    - generic [ref=e2208]:
+                      - img "Low price." [ref=e2209]:
+                        - generic [ref=e2211]: LOW PRICE
+                      - img [ref=e2214]
+                    - generic [ref=e2215]: IGP Oriental Delight Grand Bouquet
+                    - 'group "Current price: ₹5,595. Usually ₹6,345." [ref=e2216]':
+                      - generic [ref=e2218]:
+                        - generic [ref=e2219]: ₹5,595
+                        - generic [ref=e2220]: Usually ₹6,345
+                    - generic [ref=e2222]:
+                      - img "IGP.com" [ref=e2228]
+                      - generic [ref=e2229]: IGP.com
+                    - generic [ref=e2231]: Free same-day delivery
+                  - button [ref=e2232]
+            - listitem [ref=e2234]:
+              - 'button "Low price. FNP Garden of Orchids Arrangement Current price: ₹699. Usually ₹1,099. fnp.com fnp.com & more" [ref=e2237]':
+                - generic [ref=e2241] [cursor=pointer]:
+                  - generic [ref=e2246]:
+                    - generic [ref=e2248]:
+                      - img "Low price." [ref=e2249]:
+                        - generic [ref=e2251]: LOW PRICE
+                      - img [ref=e2254]
+                    - generic [ref=e2255]: FNP Garden of Orchids Arrangement
+                    - 'group "Current price: ₹699. Usually ₹1,099." [ref=e2256]':
+                      - generic [ref=e2258]:
+                        - generic [ref=e2259]: ₹699
+                        - generic [ref=e2260]: Usually ₹1,099
+                    - generic [ref=e2261]:
+                      - generic [ref=e2262]:
+                        - img "fnp.com" [ref=e2268]
+                        - generic [ref=e2269]: fnp.com
+                      - generic [ref=e2270]: "& more"
+                  - button [ref=e2271]
+            - listitem [ref=e2273]:
+              - 'button "Low price. FlowerAura 20 Red & Pink Rose Flower Box Current price: ₹939. Usually ₹1,299. Amazon.in Amazon.in & more Free delivery" [ref=e2276]':
+                - generic [ref=e2280] [cursor=pointer]:
+                  - generic [ref=e2285]:
+                    - generic [ref=e2287]:
+                      - img "Low price." [ref=e2288]:
+                        - generic [ref=e2290]: LOW PRICE
+                      - img [ref=e2293]
+                    - generic [ref=e2294]: FlowerAura 20 Red & Pink Rose Flower Box
+                    - 'group "Current price: ₹939. Usually ₹1,299." [ref=e2295]':
+                      - generic [ref=e2297]:
+                        - generic [ref=e2298]: ₹939
+                        - generic [ref=e2299]: Usually ₹1,299
+                    - generic [ref=e2300]:
+                      - generic [ref=e2301]:
+                        - img "Amazon.in" [ref=e2307]
+                        - generic [ref=e2308]: Amazon.in
+                      - generic [ref=e2309]: "& more"
+                    - generic [ref=e2311]: Free delivery
+                  - button [ref=e2312]
+            - listitem [ref=e2314]:
+              - 'button "Low price. Long Stem Pink Rose Bouquet Current price: ₹9,395. Usually ₹11,079. IGP.com IGP.com Free same-day delivery" [ref=e2317]':
+                - generic [ref=e2321] [cursor=pointer]:
+                  - generic [ref=e2326]:
+                    - generic [ref=e2328]:
+                      - img "Low price." [ref=e2329]:
+                        - generic [ref=e2331]: LOW PRICE
+                      - img [ref=e2334]
+                    - generic [ref=e2335]: Long Stem Pink Rose Bouquet
+                    - 'group "Current price: ₹9,395. Usually ₹11,079." [ref=e2336]':
+                      - generic [ref=e2338]:
+                        - generic [ref=e2339]: ₹9,395
+                        - generic [ref=e2340]: Usually ₹11,079
+                    - generic [ref=e2342]:
+                      - img "IGP.com" [ref=e2348]
+                      - generic [ref=e2349]: IGP.com
+                    - generic [ref=e2351]: Free same-day delivery
+                  - button [ref=e2352]
+            - listitem [ref=e2354]:
+              - 'button "Low price. Floralbay Red Roses Bouquet Current price: ₹828. Usually ₹1,199. amazon.in amazon.in & more" [ref=e2357]':
+                - generic [ref=e2361] [cursor=pointer]:
+                  - generic [ref=e2366]:
+                    - generic [ref=e2368]:
+                      - img "Low price." [ref=e2369]:
+                        - generic [ref=e2371]: LOW PRICE
+                      - img [ref=e2374]
+                    - generic [ref=e2375]: Floralbay Red Roses Bouquet
+                    - 'group "Current price: ₹828. Usually ₹1,199." [ref=e2376]':
+                      - generic [ref=e2378]:
+                        - generic [ref=e2379]: ₹828
+                        - generic [ref=e2380]: Usually ₹1,199
+                    - generic [ref=e2381]:
+                      - generic [ref=e2382]:
+                        - img "amazon.in" [ref=e2388]
+                        - generic [ref=e2389]: amazon.in
+                      - generic [ref=e2390]: "& more"
+                  - button [ref=e2391]
+            - listitem [ref=e2393]:
+              - 'button "60% OFF. Hibiscus / Gudhal (Any Color) in 6 Inch Nursery Bag Current price: ₹99. Was ₹249. Urvann Urvann Free next-day delivery" [ref=e2396]':
+                - generic [ref=e2400] [cursor=pointer]:
+                  - generic [ref=e2405]:
+                    - generic [ref=e2407]:
+                      - img "60% OFF." [ref=e2408]:
+                        - generic [ref=e2410]: 60% OFF
+                      - img [ref=e2413]
+                    - generic [ref=e2414]: Hibiscus / Gudhal (Any Color) in 6 Inch Nursery Bag
+                    - 'group "Current price: ₹99. Was ₹249." [ref=e2415]':
+                      - generic [ref=e2417]:
+                        - generic [ref=e2418]: ₹99
+                        - generic [ref=e2419]: Was ₹249
+                    - generic [ref=e2421]:
+                      - img "Urvann" [ref=e2427]
+                      - generic [ref=e2428]: Urvann
+                    - generic [ref=e2430]: Free next-day delivery
+                  - button [ref=e2431]
+        - generic [ref=e2435]:
+          - heading "Web results" [level=2] [ref=e2436]
+          - generic [ref=e2437]:
+            - generic [ref=e2440]:
+              - link "Flower Delivery in Hyderabad | Send Flowers to Hyderabad winni.in https://www.winni.in › flowers › hyderabad" [ref=e2442] [cursor=pointer]:
+                - /url: https://www.winni.in/flowers/hyderabad
+                - heading "Flower Delivery in Hyderabad | Send Flowers to Hyderabad" [level=3] [ref=e2443]
+                - generic [ref=e2448]:
+                  - generic [ref=e2450]: winni.in
+                  - generic [ref=e2452]: https://www.winni.in › flowers › hyderabad
+              - button "About this result" [ref=e2453] [cursor=pointer]:
+                - img [ref=e2456]
+            - generic [ref=e2459]:
+              - generic [ref=e2460]: 4 days ago —
+              - generic [ref=e2461]:
+                - text: Flower delivery in Hyderabad – Surprise your loved ones with
+                - emphasis [ref=e2462]: fresh flower bouquets from Winni
+                - text: for birthdays, anniversaries & more.
+            - link "buy flower from www.winni.in" [ref=e2465] [cursor=pointer]:
+              - /url: https://www.winni.in/flowers/hyderabad
+              - img "buy flower from www.winni.in" [ref=e2467]
+            - generic [ref=e2469]:
+              - generic [ref=e2471]:
+                - img "Rated 3.5 out of 5," [ref=e2473]:
+                  - text: "3.5"
+                  - img [ref=e2474]
+                - generic [ref=e2477]:
+                  - text: store rating (
+                  - link "5.3K user reviews" [ref=e2478] [cursor=pointer]:
+                    - /url: https://www.google.com/m/storepages?q=winni.in&c=IN&hl=en-IN
+                    - text: 5.3K
+                  - text: )
+              - text: ·
+              - generic [ref=e2479]: ₹545.00 to ₹70,479.00
+              - text: ·
+              - generic [ref=e2480]: Free delivery
+        - generic [ref=e2495]:
+          - generic [ref=e2497]:
+            - heading "In shops nearby" [level=2] [ref=e2498]
+            - button "About this result" [ref=e2499] [cursor=pointer]:
+              - img [ref=e2502]
+          - generic [ref=e2507]:
+            - generic [ref=e2510]:
+              - list [ref=e2511]:
+                - listitem [ref=e2512]:
+                  - 'button "Bright Bunch of Yellow Gerberas. Nearby, 22 km. Current price: ₹449. bakers n florals & more." [ref=e2516]':
+                    - generic [ref=e2526] [cursor=pointer]:
+                      - generic [ref=e2527]:
+                        - img [ref=e2531]
+                        - generic [ref=e2535]:
+                          - img [ref=e2537]
+                          - text: Nearby, 22 km
+                      - generic [ref=e2540]: Bright Bunch of Yellow Gerberas
+                      - 'group "Current price: ₹449." [ref=e2541]':
+                        - generic [ref=e2544]: ₹449
+                      - generic [ref=e2545]:
+                        - generic [ref=e2546]:
+                          - img "bakers n florals" [ref=e2552]
+                          - generic [ref=e2553]: bakers n florals
+                        - generic [ref=e2554]: "& more"
+                - listitem [ref=e2555]:
+                  - 'button "FNP Mixed Brilliance Gerbera Flower Bouquet. Nearby, 22 km. Current price: ₹449. bakers n florals." [ref=e2559]':
+                    - generic [ref=e2569] [cursor=pointer]:
+                      - generic [ref=e2570]:
+                        - img [ref=e2574]
+                        - generic [ref=e2578]:
+                          - img [ref=e2580]
+                          - text: Nearby, 22 km
+                      - generic [ref=e2583]: FNP Mixed Brilliance Gerbera Flower Bouquet
+                      - 'group "Current price: ₹449." [ref=e2584]':
+                        - generic [ref=e2587]: ₹449
+                      - generic [ref=e2589]:
+                        - img "bakers n florals" [ref=e2595]
+                        - generic [ref=e2596]: bakers n florals
+                - listitem [ref=e2597]:
+                  - 'button "Mixed Flowers. Nearby, 22 km. Current price: ₹2,299. bakers n florals." [ref=e2601]':
+                    - generic [ref=e2611] [cursor=pointer]:
+                      - generic [ref=e2612]:
+                        - img [ref=e2616]
+                        - generic [ref=e2620]:
+                          - img [ref=e2622]
+                          - text: Nearby, 22 km
+                      - generic [ref=e2625]: Mixed Flowers
+                      - 'group "Current price: ₹2,299." [ref=e2626]':
+                        - generic [ref=e2629]: ₹2,299
+                      - generic [ref=e2631]:
+                        - img "bakers n florals" [ref=e2637]
+                        - generic [ref=e2638]: bakers n florals
+                - listitem [ref=e2639]:
+                  - 'button "Mixed Flowers. Nearby, 22 km. Current price: ₹1,500. bakers n florals." [ref=e2643]':
+                    - generic [ref=e2653] [cursor=pointer]:
+                      - generic [ref=e2654]:
+                        - img [ref=e2658]
+                        - generic [ref=e2662]:
+                          - img [ref=e2664]
+                          - text: Nearby, 22 km
+                      - generic [ref=e2667]: Mixed Flowers
+                      - 'group "Current price: ₹1,500." [ref=e2668]':
+                        - generic [ref=e2671]: ₹1,500
+                      - generic [ref=e2673]:
+                        - img "bakers n florals" [ref=e2679]
+                        - generic [ref=e2680]: bakers n florals
+                - listitem [ref=e2681]:
+                  - 'button "FNP Enticing 8 Yellow Roses Bouquets. Nearby, 22 km. Current price: ₹449. bakers n florals & more." [ref=e2685]':
+                    - generic [ref=e2695] [cursor=pointer]:
+                      - generic [ref=e2696]:
+                        - img [ref=e2700]
+                        - generic [ref=e2704]:
+                          - img [ref=e2706]
+                          - text: Nearby, 22 km
+                      - generic [ref=e2709]: FNP Enticing 8 Yellow Roses Bouquets
+                      - 'group "Current price: ₹449." [ref=e2710]':
+                        - generic [ref=e2713]: ₹449
+                      - generic [ref=e2714]:
+                        - generic [ref=e2715]:
+                          - img "bakers n florals" [ref=e2721]
+                          - generic [ref=e2722]: bakers n florals
+                        - generic [ref=e2723]: "& more"
+              - link "See more" [ref=e2725] [cursor=pointer]:
+                - /url: /search?sca_esv=a26c9df86d20384d&q=buy+flower+nearby&shoprs=CAESBaoBAggBGAMqCmJ1eSBmbG93ZXIyDQgDIgWqAQIIASoCEAFQAGADgAEB&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48QkOQKKAB6BAhmEAU
+                - generic [ref=e2727]:
+                  - img [ref=e2730]
+                  - generic [ref=e2732]: See more
+            - button [ref=e2733] [cursor=pointer]:
+              - img [ref=e2736]
+      - generic [ref=e2739]:
+        - generic [ref=e2744]:
+          - heading "People also search for" [level=2] [ref=e2746]
+          - generic [ref=e2748]:
+            - generic [ref=e2749]:
+              - link "Cheap flower delivery in Hyderabad" [ref=e2753] [cursor=pointer]:
+                - /url: /search?sca_esv=a26c9df86d20384d&q=Cheap+flower+delivery+in+Hyderabad&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q1QJ6BAh5EAE
+                - generic [ref=e2754]:
+                  - generic [ref=e2759]: Cheap flower delivery in Hyderabad
+                  - img [ref=e2763]
+              - link "Best online flower delivery in Hyderabad" [ref=e2768] [cursor=pointer]:
+                - /url: /search?sca_esv=a26c9df86d20384d&q=Best+online+flower+delivery+in+Hyderabad&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q1QJ6BQiFARAB
+                - generic [ref=e2769]:
+                  - generic [ref=e2774]: Best online flower delivery in Hyderabad
+                  - img [ref=e2778]
+              - link "Puja flowers online Hyderabad" [ref=e2783] [cursor=pointer]:
+                - /url: /search?sca_esv=a26c9df86d20384d&q=Puja+flowers+online+Hyderabad&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q1QJ6BQiDARAB
+                - generic [ref=e2784]:
+                  - generic [ref=e2789]: Puja flowers online Hyderabad
+                  - img [ref=e2793]
+              - link "Flower delivery Hyderabad" [ref=e2798] [cursor=pointer]:
+                - /url: /search?sca_esv=a26c9df86d20384d&q=Flower+delivery+Hyderabad&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q1QJ6BQiCARAB
+                - generic [ref=e2799]:
+                  - generic [ref=e2804]: Flower delivery Hyderabad
+                  - img [ref=e2808]
+            - generic [ref=e2810]:
+              - link "Flower Bouquet shop near me" [ref=e2814] [cursor=pointer]:
+                - /url: /search?sca_esv=a26c9df86d20384d&q=Flower+Bouquet+shop+near+me&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q1QJ6BQiAARAB
+                - generic [ref=e2815]:
+                  - generic [ref=e2820]: Flower Bouquet shop near me
+                  - img [ref=e2824]
+              - link "Flower shop Hyderabad" [ref=e2829] [cursor=pointer]:
+                - /url: /search?sca_esv=a26c9df86d20384d&q=Flower+shop+Hyderabad&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q1QJ6BAh_EAE
+                - generic [ref=e2830]:
+                  - generic [ref=e2835]: Flower shop Hyderabad
+                  - img [ref=e2839]
+              - link "Flower market, Hyderabad" [ref=e2844] [cursor=pointer]:
+                - /url: /search?sca_esv=a26c9df86d20384d&q=Flower+market,+Hyderabad&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q1QJ6BAh9EAE
+                - generic [ref=e2845]:
+                  - generic [ref=e2850]: Flower market, Hyderabad
+                  - img [ref=e2854]
+              - link "Flower shop hyderabad near me" [ref=e2859] [cursor=pointer]:
+                - /url: /search?sca_esv=a26c9df86d20384d&q=Flower+shop+hyderabad+near+me&sa=X&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q1QJ6BAh6EAE
+                - generic [ref=e2860]:
+                  - generic [ref=e2865]: Flower shop hyderabad near me
+                  - img [ref=e2869]
+        - navigation [ref=e2871]:
+          - heading "Page navigation" [level=1] [ref=e2872]
+          - text: "1"
+          - link "Page 2" [ref=e2875] [cursor=pointer]:
+            - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&ei=Hk8TapelG6jf2roPzo69-Ag&start=10&sa=N&sstk=AU9db-BPVHsjRs-sYmG6a7QvP_j2UbZ9ylocNBq6bmVVtEH6I86Tz2ymtoMd231cUDhbNoyTH8JfE81UqzUfOeoGjQYHW___x9i0sQ&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q8tMDegUInAEQBA
+            - text: "2"
+          - link "Page 3" [ref=e2877] [cursor=pointer]:
+            - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&ei=Hk8TapelG6jf2roPzo69-Ag&start=20&sa=N&sstk=AU9db-BPVHsjRs-sYmG6a7QvP_j2UbZ9ylocNBq6bmVVtEH6I86Tz2ymtoMd231cUDhbNoyTH8JfE81UqzUfOeoGjQYHW___x9i0sQ&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q8tMDegUInAEQBg
+            - text: "3"
+          - link "Page 4" [ref=e2879] [cursor=pointer]:
+            - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&ei=Hk8TapelG6jf2roPzo69-Ag&start=30&sa=N&sstk=AU9db-BPVHsjRs-sYmG6a7QvP_j2UbZ9ylocNBq6bmVVtEH6I86Tz2ymtoMd231cUDhbNoyTH8JfE81UqzUfOeoGjQYHW___x9i0sQ&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q8tMDegUInAEQCA
+            - text: "4"
+          - link "Page 5" [ref=e2881] [cursor=pointer]:
+            - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&ei=Hk8TapelG6jf2roPzo69-Ag&start=40&sa=N&sstk=AU9db-BPVHsjRs-sYmG6a7QvP_j2UbZ9ylocNBq6bmVVtEH6I86Tz2ymtoMd231cUDhbNoyTH8JfE81UqzUfOeoGjQYHW___x9i0sQ&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q8tMDegUInAEQCg
+            - text: "5"
+          - link "Page 6" [ref=e2883] [cursor=pointer]:
+            - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&ei=Hk8TapelG6jf2roPzo69-Ag&start=50&sa=N&sstk=AU9db-BPVHsjRs-sYmG6a7QvP_j2UbZ9ylocNBq6bmVVtEH6I86Tz2ymtoMd231cUDhbNoyTH8JfE81UqzUfOeoGjQYHW___x9i0sQ&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q8tMDegUInAEQDA
+            - text: "6"
+          - link "Page 7" [ref=e2885] [cursor=pointer]:
+            - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&ei=Hk8TapelG6jf2roPzo69-Ag&start=60&sa=N&sstk=AU9db-BPVHsjRs-sYmG6a7QvP_j2UbZ9ylocNBq6bmVVtEH6I86Tz2ymtoMd231cUDhbNoyTH8JfE81UqzUfOeoGjQYHW___x9i0sQ&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q8tMDegUInAEQDg
+            - text: "7"
+          - link "Page 8" [ref=e2887] [cursor=pointer]:
+            - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&ei=Hk8TapelG6jf2roPzo69-Ag&start=70&sa=N&sstk=AU9db-BPVHsjRs-sYmG6a7QvP_j2UbZ9ylocNBq6bmVVtEH6I86Tz2ymtoMd231cUDhbNoyTH8JfE81UqzUfOeoGjQYHW___x9i0sQ&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q8tMDegUInAEQEA
+            - text: "8"
+          - link "Page 9" [ref=e2889] [cursor=pointer]:
+            - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&ei=Hk8TapelG6jf2roPzo69-Ag&start=80&sa=N&sstk=AU9db-BPVHsjRs-sYmG6a7QvP_j2UbZ9ylocNBq6bmVVtEH6I86Tz2ymtoMd231cUDhbNoyTH8JfE81UqzUfOeoGjQYHW___x9i0sQ&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q8tMDegUInAEQEg
+            - text: "9"
+          - link "Page 10" [ref=e2891] [cursor=pointer]:
+            - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&ei=Hk8TapelG6jf2roPzo69-Ag&start=90&sa=N&sstk=AU9db-BPVHsjRs-sYmG6a7QvP_j2UbZ9ylocNBq6bmVVtEH6I86Tz2ymtoMd231cUDhbNoyTH8JfE81UqzUfOeoGjQYHW___x9i0sQ&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q8tMDegUInAEQFA
+            - text: "10"
+          - heading "Next" [level=2] [ref=e2893]:
+            - link "Next" [ref=e2894] [cursor=pointer]:
+              - /url: /search?q=buy+flower&sca_esv=a26c9df86d20384d&ei=Hk8TapelG6jf2roPzo69-Ag&start=10&sa=N&sstk=AU9db-BPVHsjRs-sYmG6a7QvP_j2UbZ9ylocNBq6bmVVtEH6I86Tz2ymtoMd231cUDhbNoyTH8JfE81UqzUfOeoGjQYHW___x9i0sQ&ved=2ahUKEwiXrImQ0tKUAxWor1YBHU5HD48Q8NMDegUInAEQFg
+              - generic [ref=e2896]: Next
+      - navigation
+    - contentinfo [ref=e2897]:
+      - heading "Footer links" [level=1] [ref=e2898]
+      - generic [ref=e2902]:
+        - generic [ref=e2904]:
+          - text: India
+          - generic [ref=e2906]:
+            - button "500075, Hyderabad, Telangana - From your IP address" [ref=e2908] [cursor=pointer]:
+              - generic [ref=e2909]: 500075, Hyderabad, Telangana
+              - generic [ref=e2911]:
+                - text: "-"
+                - generic [ref=e2912]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e2914] [cursor=pointer]: Update location
+        - generic [ref=e2917]:
+          - link "Help" [ref=e2918] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=e2919] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e2920] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=e2921] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1
