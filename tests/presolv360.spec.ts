@@ -1,99 +1,73 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '../fixtures';
+import { registerData } from '../data/registerData';
+import { createScreenshotHelper } from '../utils/screenshot';
 
-test('navigate to presolv360 login, go to register page and fill registration form', async ({ page }) => {
-  let screenshotCount = 1;
+test('navigate to presolv360 login, go to register page and fill registration form', async ({ page, loginPage, registerPage }) => {
+  const takeScreenshot = createScreenshotHelper(page);
 
-  const takeScreenshot = async (name: string) => {
-    await page.screenshot({
-      path: `screenshots/${String(screenshotCount++).padStart(2, '0')}-${name}.png`,
-      fullPage: true,
-    });
-  };
-
-  await page.goto('https://presolv360.com/login');
+  await loginPage.goto();
   await takeScreenshot('login-page-opened');
 
-  await expect(page).toHaveURL('https://presolv360.com/login');
+  await expect(page).toHaveURL(loginPage.url);
   await takeScreenshot('login-url-verified');
 
-  await expect(page.getByRole('heading', { name: 'Login to your account' })).toBeVisible();
+  await expect(loginPage.heading).toBeVisible();
   await takeScreenshot('login-heading-visible');
 
-  await expect(page.getByRole('textbox', { name: 'Username' })).toBeVisible();
+  await expect(loginPage.usernameInput).toBeVisible();
   await takeScreenshot('username-visible');
 
-  await page.getByRole('link', { name: 'Create account' }).click();
+  await loginPage.clickCreateAccount();
   await takeScreenshot('clicked-create-account');
 
-  await expect(page).toHaveURL('https://presolv360.com/register');
+  await expect(page).toHaveURL(registerPage.url);
   await takeScreenshot('register-url-verified');
 
-  await expect(page.getByRole('heading', { name: 'Create your account' })).toBeVisible();
+  await expect(registerPage.heading).toBeVisible();
   await takeScreenshot('register-heading-visible');
 
-  await expect(page.getByPlaceholder('First Name*')).toBeVisible();
+  await expect(registerPage.firstNameInput).toBeVisible();
   await takeScreenshot('first-name-visible');
 
-  await expect(page.getByPlaceholder('Last Name*')).toBeVisible();
+  await expect(registerPage.lastNameInput).toBeVisible();
   await takeScreenshot('last-name-visible');
 
-  await expect(page.getByRole('button', { name: 'Create Account' })).toBeVisible();
+  await expect(registerPage.createAccountButton).toBeVisible();
   await takeScreenshot('create-account-button-visible');
 
-  await page.getByPlaceholder('First Name*').fill('Tushar');
-  await takeScreenshot('first-name-filled');
+  await registerPage.fillForm(registerData);
+  await takeScreenshot('form-filled');
 
-  await page.getByPlaceholder('Last Name*').fill('Maheshkar');
-  await takeScreenshot('last-name-filled');
-
-  await page.getByRole('textbox', { name: 'Mobile' }).fill('9074849489');
-  await takeScreenshot('mobile-filled');
-
-  await page.getByRole('textbox', { name: 'Email*' }).fill('tusharmaheshkar@gmail.com');
-  await takeScreenshot('email-filled');
-
-  await page.getByPlaceholder('Organization*').fill('test org');
-  await takeScreenshot('organization-filled');
-
-  await page.getByPlaceholder('Username*: Minimum 6 characters').fill('zztusharzz');
-  await takeScreenshot('username-filled');
-
-  await page.getByPlaceholder('Password*', { exact: true }).fill('HelloWorld123');
-  await takeScreenshot('password-filled');
-
-  await page.getByPlaceholder('Confirm Password*: Should be same as Password').fill('HelloWorld123');
-  await takeScreenshot('confirm-password-filled');
-
-  await page.getByRole('radio', { name: 'Party' }).check();
+  await registerPage.partyRadio.check();
   await takeScreenshot('party-radio-checked');
 
-  await page.getByRole('checkbox', { name: 'I have read and agree to the' }).check();
+  await registerPage.termsCheckbox.check();
   await takeScreenshot('terms-checkbox-checked');
 
-  await expect(page.getByPlaceholder('First Name*')).toHaveValue('Tushar');
+  await expect(registerPage.firstNameInput).toHaveValue(registerData.firstName);
   await takeScreenshot('first-name-value-verified');
 
-  await expect(page.getByPlaceholder('Last Name*')).toHaveValue('Maheshkar');
+  await expect(registerPage.lastNameInput).toHaveValue(registerData.lastName);
   await takeScreenshot('last-name-value-verified');
 
-  await expect(page.getByRole('textbox', { name: 'Mobile' })).toHaveValue('9074849489');
+  await expect(registerPage.mobileInput).toHaveValue(registerData.mobile);
   await takeScreenshot('mobile-value-verified');
 
-  await expect(page.getByRole('textbox', { name: 'Email*' })).toHaveValue('tusharmaheshkar@gmail.com');
+  await expect(registerPage.emailInput).toHaveValue(registerData.email);
   await takeScreenshot('email-value-verified');
 
-  await expect(page.getByPlaceholder('Organization*')).toHaveValue('test org');
+  await expect(registerPage.organizationInput).toHaveValue(registerData.organization);
   await takeScreenshot('organization-value-verified');
 
-  await expect(page.getByPlaceholder('Username*: Minimum 6 characters')).toHaveValue('zztusharzz');
+  await expect(registerPage.usernameInput).toHaveValue(registerData.username);
   await takeScreenshot('username-value-verified');
 
-  await expect(page.getByRole('radio', { name: 'Party' })).toBeChecked();
+  await expect(registerPage.partyRadio).toBeChecked();
   await takeScreenshot('party-radio-verified');
 
-  await expect(page.getByRole('checkbox', { name: 'I have read and agree to the' })).toBeChecked();
+  await expect(registerPage.termsCheckbox).toBeChecked();
   await takeScreenshot('terms-checkbox-verified');
 
-  await expect(page.getByRole('button', { name: 'Create Account' })).toBeEnabled();
+  await expect(registerPage.createAccountButton).toBeEnabled();
   await takeScreenshot('create-account-button-enabled');
 });
