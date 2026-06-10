@@ -1,25 +1,17 @@
-import { Page } from '@playwright/test';
+import { BasePage } from './BasePage';
 
-export class LoginPage {
-  readonly page: Page;
+export class LoginPage extends BasePage {
+  readonly usernameInput = this.page.getByLabel(/username|email/i);
+  readonly passwordInput = this.page.getByLabel(/password/i);
+  readonly submitButton = this.page.getByRole('button', { name: /login|sign in/i });
 
-  readonly url = '/login';
-  readonly heading;
-  readonly usernameInput;
-  readonly createAccountLink;
-
-  constructor(page: Page) {
-    this.page = page;
-    this.heading = page.getByRole('heading', { name: 'Login to your account' });
-    this.usernameInput = page.getByRole('textbox', { name: 'Username' });
-    this.createAccountLink = page.getByRole('link', { name: 'Create account' });
+  async open(path: string) {
+    await this.goto(path);
   }
 
-  async goto() {
-    await this.page.goto(this.url);
-  }
-
-  async clickCreateAccount() {
-    await this.createAccountLink.click();
+  async login(username: string, password: string) {
+    await this.fillWhenReady(this.usernameInput, username);
+    await this.fillWhenReady(this.passwordInput, password);
+    await this.clickWhenReady(this.submitButton);
   }
 }

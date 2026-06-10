@@ -1,15 +1,35 @@
 {
   "name": "playwright-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright API + UI test framework",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test --project=api --project=ui --project=e2e",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=ui",
+    "test:e2e": "playwright test --project=e2e",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:a11y": "playwright test --grep @a11y",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui:chrome": "playwright test --project=ui --headed",
+    "test:all-browsers": "playwright test --project=ui --project=ui-firefox --project=ui-webkit --project=ui-mobile",
+    "test:report": "playwright show-report",
+    "codegen": "playwright codegen"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.9.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.56"
   }
 }
