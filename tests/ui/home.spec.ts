@@ -8,7 +8,9 @@ test.describe('@ui @smoke Home page', () => {
     await expect(homePage.heading).toBeVisible();
     await expect(homePage.page).toHaveTitle(/Example Domain/i);
   });
+});
 
+test.describe('@ui @regression Home page visual', () => {
   test('home page visual snapshot', async ({ homePage }) => {
     await homePage.open();
     await homePage.expectLoaded();
