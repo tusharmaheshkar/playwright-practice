@@ -14,7 +14,7 @@
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "test:ui:chrome": "playwright test --project=ui --headed",
-    "test:all-browsers": "playwright test --project=ui --project=ui-firefox --project=ui-webkit --project=ui-mobile",
+    "test:all-browsers": "playwright test --config=playwright.all-browsers.config.ts",
     "test:report": "playwright show-report",
     "codegen": "playwright codegen"
   },
